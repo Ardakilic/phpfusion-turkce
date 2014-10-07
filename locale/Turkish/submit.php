@@ -1,112 +1,119 @@
 <?php
-$locale['400'] = "Submit Link";
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
+$locale['400'] = "Link Ekle";
 // Submit Link Success
-$locale['410'] = "Thank you for submitting your Link";
-$locale['411'] = "Submit another Link";
-$locale['412'] = "Return to ".$settings['sitename'];
+$locale['410'] = "Eklemiş olduğunuz link için teşekkürler.";
+$locale['411'] = "Başka bir link eklemek için";
+$locale['412'] = $settings['sitename']." adresine geri dön";
 // Submit Link Form
-$locale['420'] = "Use the following form to submit a Link. Your submission will be verified by an
-Administrator. Links deemed unsuitable will not be accepted.";
-$locale['421'] = "Link Category:";
-$locale['422'] = "Link Name:";
-$locale['423'] = "Link URL:";
-$locale['424'] = "Link Description:";
-$locale['425'] = "Submit Link";
+$locale['420'] = "Web sitemizde yayımlanmasını istediğiniz Linki eklemek için aşağıdaki 
+formu kullanabilirsiniz. Eklediğiniz link yada linkler yönetici tarafından incelenecek ve gerekli görüldüğü takdirde yayımlanacaktır.";
+$locale['421'] = "Link Kategorisi:";
+$locale['422'] = "Link İsmi:";
+$locale['423'] = "Link Adresi:";
+$locale['424'] = "Link Açıklaması:";
+$locale['425'] = "Link Gönder";
 // Submit News
-$locale['450'] = "Submit News";
+$locale['450'] = "Haber Gönder";
 // Submit News Success
-$locale['460'] = "Thank you for submitting your News";
-$locale['461'] = "Submit another News item";
+$locale['460'] = "Haber gönderdiğiniz için teşekkür ederiz.";
+$locale['461'] = "Başka bir haber gönder";
 // Submit News Form
-$locale['470'] = "Use the following form to submit News. Your submission will be reviewed by an
-Administrator. ".$settings['sitename']." reserves the right to amend or edit any submission. News
-should be applicable to the content of this site. Unsuitable submissions will be deleted.";
-$locale['471'] = "Subject:";
-$locale['472'] = "News:";
-$locale['473'] = " Enable Automatic Line-Breaks";
-$locale['474'] = "Preview News";
-$locale['475'] = "Submit News";
-$locale['476'] = "Category:";
-$locale['477'] = "- None -";
-$locale['478'] = "News Snippet:";
+$locale['470'] = "Aşağıdaki formu kullanarak haber önerisinde bulunabilirsiniz. Öneriniz bir
+Yönetici tarafından değerlendirilecektir. ".$settings['sitename']." her öneride düzeltme ve silme hakkını kendinde gizli tutar. Haberler
+Site içeriği ile alakalı olmalıdır. İçeriğe uygunsuz haberler onaylanmadan silinecektir.";
+$locale['471'] = "Konu:";
+$locale['472'] = "Haber Metni:";
+$locale['473'] = " Otomatik satır sonlandırıcısı kullan";
+$locale['474'] = "Haber Ön izleme";
+$locale['475'] = "Haberi Gönder";
+$locale['476'] = "Kategori:";
+$locale['477'] = "- Hiç biri -";
+$locale['478'] = "Haber Kısa Metni:";
 // Submit Article
-$locale['500'] = "Submit Article";
+$locale['500'] = "Makale Gönder";
 // Submit Article Success
-$locale['510'] = "Thank you for submitting your Article";
-$locale['511'] = "Submit another Article";
+$locale['510'] = "Makale gönderdiğiniz için teşekkür ederiz";
+$locale['511'] = "Başka bir makale gönder";
 // Submit Article Form
-$locale['520'] = "Use the following form to submit an Article. Your submission will be reviewed by an
-Administrator. ".$settings['sitename']." reserves the right to amend or edit any submission. Articles
-should be applicable to the content of this site. Unsuitable submissions will be deleted.";
-$locale['521'] = "Category:";
-$locale['522'] = "Subject:";
-$locale['523'] = "Snippet:";
-$locale['524'] = "Article:";
-$locale['525'] = " Enable Automatic Line-Breaks";
-$locale['526'] = "Preview Article";
-$locale['527'] = "Submit Article";
+$locale['520'] = "Aşağıdaki formu kullanarak makale önerisinde bulunabilirsiniz. Öneriniz bir
+Yönetici tarafından değerlendirilecektir. ".$settings['sitename']." her öneride düzeltme ve silme hakkını kendinde gizli tutar. Makaleler
+Site içeriği ile alakalı olmalıdır. İçeriğe uygunsuz makaleler onaylanmadan silinecektir.";
+$locale['521'] = "Kategori:";
+$locale['522'] = "Konu:";
+$locale['523'] = "Açıklama:";
+$locale['524'] = "Makale Metni:";
+$locale['525'] = " Otomatik satır sonlandırıcısı kullan";
+$locale['526'] = "Makale Ön İzleme";
+$locale['527'] = "Makaleyi Gönder";
 // Submit Error
-$locale['550'] = "Please complete all required fields.";
-$locale['551'] = "There are no categories defined.";
-$locale['552'] = "There are no albums defined.";
+$locale['550'] = "Lütfen tüm gerekli alanları doldurun.";
+$locale['551'] = "Henüz bir kategori oluşturulmamış.";
+$locale['552'] = "Henüz bir albüm bulunamadı.";
 // Submit Photo
-$locale['570'] = "Submit Photo";
+$locale['570'] = "Resim Önerme";
 // Submit Photo Success
-$locale['580'] = "Thank you for submitting your Photo";
-$locale['581'] = "Submit another Photo";
+$locale['580'] = "Resim önerisinde bulunduğunuz için teşekkür ederiz";
+$locale['581'] = "Başka bir resim öner";
 // Submit Photo Error
-$locale['600'] = "Your Photo could not be submitted";
-$locale['601'] = "Invalid image filename.";
-$locale['602'] = "Image must be less than %u bytes.";
-$locale['603'] = "Image must be a GIF, JPEG or PNG file.";
-$locale['604'] = "Image must be no bigger than %uw x %uh pixels.";
+$locale['600'] = "Resminiz eklenemedi";
+$locale['601'] = "Geçersiz imaj dosya ismi.";
+$locale['602'] = "Resim %u byte dan daha az olmalıdır.";
+$locale['603'] = "Resim GIF, JPEG ya da PNG türünde olmalıdır.";
+$locale['604'] = "Resminiz %uw x %uh piksel den daha fazla olamaz.";
 // Submit Photo Form
-$locale['620'] = "Use the following form to submit a Photo. Your submission will be reviewed by an
-Administrator. ".$settings['sitename']." reserves the right to amend or edit any submission. Photos
-should be applicable to the content of this site. Submissions deemed unsuitable will be rejected.";
-$locale['621'] = "Title:";
-$locale['622'] = "Description:";
-$locale['623'] = "Image: ";
-$locale['624'] = "Max. filesize: %s / Max. size: %ux%u pixels";
-$locale['625'] = "Album:";
-$locale['626'] = "Submit Photo";
+$locale['620'] = "Aşağıdaki formu kullanarak resim önerisinde bulunabilirsiniz. Öneriniz bir
+Yönetici tarafından değerlendirilecektir. ".$settings['sitename']." her öneride düzeltme ve silme hakkını kendinde gizli tutar. Resimler
+Site içeriği ile alakalı olmalıdır. İçeriğe uygunsuz resimler onaylanmadan silinecektir.";
+$locale['621'] = "Başlık:";
+$locale['622'] = "Açıklama:";
+$locale['623'] = "Resim: ";
+$locale['624'] = "Max. dosya boyutu: %s / Max. boyut: %ux%u piksel";
+$locale['625'] = "Albüm:";
+$locale['626'] = "Resim Ekle";
 // Submit Download
-$locale['650'] = "Submit Download";
+$locale['650'] = "İndirme Öner";
 // Submit Download Success
-$locale['660'] = "Thank you for submitting your Download";
-$locale['661'] = "Submit another Download";
+$locale['660'] = "İndirme dosyası önerdiğiniz için teşekkür ederiz";
+$locale['661'] = "Başka bir indirme önerin";
 // Submit Download Error
-$locale['670'] = "Your Download could not be submitted";
-$locale['671'] = "Invalid filename.";
-$locale['671a'] = "Invalid image filename.";
-$locale['672'] = "File must be less than %s.";
-$locale['672a'] = "Image must be less than %s.";
-$locale['672b'] = "Image must be smaller than %s.";
-$locale['673'] = "File must be one of the following file types: %s.";
-$locale['673a'] = "Image must be one of the following file types: %s.";
-$locale['674'] = "Download title cannot be left empty.";
-$locale['675'] = "Download file or url cannot be left empty.";
-$locale['676'] = "Download short description cannot be left empty.";
-$locale['676a'] = "Unknown error";
+$locale['670'] = "İndirme dosyanız eklenemedi";
+$locale['671'] = "Geçersiz Dosya Adı.";
+$locale['671a'] = "Geçersiz Resim Dosya Adı.";
+$locale['672'] = "İndirme şu değerden düşük olmalı: %s.";
+$locale['672a'] = "Resim şu değerden düşük olmalı: %s.";
+$locale['672b'] = "Resim şundan düşük olmalı: %s.";
+$locale['673'] = "İndirme şu uzantılardan birine sahip olmalı: %s.";
+$locale['673a'] = "Resim şu uzantılardan birine sahip olmalı: %s.";
+$locale['674'] = "İndirme başlığı boş bırakılamaz.";
+$locale['675'] = "İndirme dosyası ya da linki boş bırakılamaz.";
+$locale['676'] = "İndirme kısa açıklaması boş bırakılamaz.";
+$locale['676a'] = "Bilinmeyen hata";
 // Submit Download Form
-$locale['680'] = "Use the following form to submit a Download. Your submission will be reviewed by an
-Administrator. ".$settings['sitename']." reserves the right to amend or edit any submission. Downloads
-should be applicable to the content of this site. Submissions deemed unsuitable will be rejected.";
-$locale['681'] = "Title:";
-$locale['682'] = "Description:";
-$locale['682b'] = "Short description:";
-$locale['683'] = "URL:";
-$locale['684'] = "or File:";
-$locale['685'] = "Calculate file size";
-$locale['686'] = "Screenshot:";
-$locale['687'] = "Category:";
-$locale['688'] = "License:";
-$locale['689'] = "O/S:";
-$locale['690'] = "Version:";
-$locale['691'] = "Homepage:";
+$locale['680'] = "Aşağıdaki formu kullanarak sitemize indirme dosyası önerisinde bulunabilirsiniz. Öneriniz
+bir Yönetici tarafından incelenecektir. ".$settings['sitename']." indirme önerisini iptal etme ya da düzenlemeke
+hakkını kendinde saklı tutar. İndirmeler site konseptine uygun olmalıdır. Uygunsuz öneriler silinecektir.";
+$locale['681'] = "Başlık:";
+$locale['682'] = "Açıklama:";
+$locale['682b'] = "Kısa Açıklama:";
+$locale['683'] = "Link:";
+$locale['684'] = "ya da Dosya:";
+$locale['685'] = "Dosya boyutunu hesapla";
+$locale['686'] = "Ekran Görüntüsü:";
+$locale['687'] = "Kategori:";
+$locale['688'] = "Lisans:";
+$locale['689'] = "İşletim Sistemi:";
+$locale['690'] = "Versiyon:";
+$locale['691'] = "Ana Sayfa:";
 $locale['692'] = "Copyright:";
-$locale['693'] = "Filesize:";
-$locale['694'] = "Max. filesize: %s / Allowed filetypes: %s";
-$locale['694b'] = "Max. filesize: %s / Allowed filetypes: %s / Max width: %spx, Max. height: %spx";
-$locale['695'] = "Submit Download";
+$locale['693'] = "Dosya Boyutu:";
+$locale['694'] = "Azami dosya boyutu: %s / İzin verilen dosya türleri: %s";
+$locale['694b'] = "Azami dosya boyutu: %s / İzin verilen dosya türleri: %s / Azami Genişlik: %spx, Azami yükseklik: %spx";
+$locale['695'] = "İndirmeyi Öner";
 ?>
