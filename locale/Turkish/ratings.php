@@ -1,19 +1,26 @@
 <?php
-$locale['r100'] = "Ratings";
-$locale['r101'] = "No Ratings have been Posted.";
-$locale['r102'] = "Remove Rating";
-$locale['r103'] = "Post Rating";
-$locale['r104'] = "Rating is available to Members only.<br /><br />Please <a href='".BASEDIR."login.php'>login</a>".($settings['enable_registration'] ? " or <a href='".BASEDIR."register.php'>register</a>" : "")." to vote.";
-$locale['r105'] = "You rated this as <strong>%s</strong> on %s";
-$locale['r106'] = "Please select your Rating";
-$locale['r107'] = "Choose Rating:";
-$locale['r108'] = "No Votes";
-$locale['r109'] = "Vote";
-$locale['r110'] = "Votes";
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
+$locale['r100'] = "Oylama";
+$locale['r101'] = "Henüz bir oylama yapılmamış.";
+$locale['r102'] = "Oyu iptal et";
+$locale['r103'] = "Oyla";
+$locale['r104'] = "Sadece üyeler oylayabilir.<br /><br />Oy verebilmek için lütfen ".($settings['enable_registration'] ? "<a href='".BASEDIR."register.php'>üye olun</a> ya da" : "")." <a href='".BASEDIR."login.php'>üye girişi yapın</a>.";
+$locale['r105'] = "<strong>%s</strong> olarak oyunuzu %s tarihinde gönderdiniz";
+$locale['r106'] = "Lütfen oyunuzu seçiniz";
+$locale['r107'] = "Oyunuz:";
+$locale['r108'] = "Oylanmamış";
+$locale['r109'] = "Oy";
+$locale['r110'] = "Oylar";
 // Rating Options
-$locale['r120'] = "Awesome!";
-$locale['r121'] = "Very Good";
-$locale['r122'] = "Good";
-$locale['r123'] = "Average";
-$locale['r124'] = "Poor";
+$locale['r120'] = "Harika!";
+$locale['r121'] = "Çok İyi";
+$locale['r122'] = "İyi";
+$locale['r123'] = "Fena Değil";
+$locale['r124'] = "Kötü / Berbat";
 ?>
