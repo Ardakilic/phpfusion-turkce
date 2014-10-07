@@ -1,6 +1,13 @@
 <?php
-$locale['400'] = "<span style='color:#ff0000;'><b>Access Denied!</b></span><br />You are not permitted to view this page.";
-$locale['401'] = "Internal Error";
-$locale['402'] = "Unable to retrieve page content.";
-$locale['403'] = "Go Back";
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
+$locale['400'] = "<span style='color:#ff0000;'><strong>Erişim Engellendi!</strong></span><br />Bu sayfayı görüntülemeye yetkiniz yok.";
+$locale['401'] = "Dahili Hata";
+$locale['402'] = "Sayfa içeriği alınamadı.";
+$locale['403'] = "Geri Dön";
 ?>
