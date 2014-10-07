@@ -1,10 +1,17 @@
 <?php
-$locale['400'] = "News Categories";
-$locale['401'] = "Category:";
-$locale['402'] = "Number of Items:";
-$locale['403'] = "None-Categorised News";
-$locale['404'] = "There are no news items in this category.";
-$locale['405'] = "More";
-$locale['406'] = "Show All Categories";
-$locale['407'] = "No News Categories defined";
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
+$locale['400'] = "Haber Kategorileri";
+$locale['401'] = "Kategori:";
+$locale['402'] = "Haber Adedi:";
+$locale['403'] = "Kategorisiz Haberler";
+$locale['404'] = "Bu kategoride haber bulunmamaktadır.";
+$locale['405'] = "Daha fazla";
+$locale['406'] = "Bütün kategorileri göster";
+$locale['407'] = "Haber Kategorisi tanımlanmamış";
 ?>
