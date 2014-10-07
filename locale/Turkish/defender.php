@@ -1,31 +1,38 @@
 <?php
-$locale['validate'] = "Please check and revalidate the field.";
-$locale['cookie_expired'] = "The site admin cookie has expired. Please login again.";
-$locale['cookie_title'] = "Session Timed Out";
-$locale['cookie_description'] = "There are no valid authentication or your session has timed out. Please login again to continue.";
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
+$locale['validate'] = "Lütfen alanı kontrol edip yeniden doğrulayın.";
+$locale['cookie_expired'] = "Yönetici çerezinin süresi doldu. Lütfen yeniden giriş yapın.";
+$locale['cookie_title'] = "Oturum zaman aşımına uğradı";
+$locale['cookie_description'] = "Bu alana geçerli bir erişiminiz yok veya sessionunuz zaman aşımına uğradı. Devam etmek için lütfen giriş yapın.";
 
 // Tokens
-$locale['token_error_title'] = "Token Error";
-$locale['token_error'] = "We are sorry, there was an error. Please go Back, Refresh the page and try again.";
-$locale['token_error_1'] = "Session not started.";
-$locale['token_error_2'] = "Token was not posted.";
-$locale['token_error_3'] = "Invalid token.";
-$locale['token_error_4'] = "Invalid UserID within token.";
-$locale['token_error_5'] = "Invalid token datestamp.";
-$locale['token_error_6'] = "Post was made too fast.";
-$locale['token_error_7'] = "Invalid token hash.";
-$locale['token_error_8'] = "Invalid token format.";
+$locale['token_error_title'] = "Erişim Jetonu Hatası";
+$locale['token_error'] = "Üzgünüz, bir sorun meydana geldi. Lütfen geri dönüp sayfayı yenileyin ve yeniden deneyin.";
+$locale['token_error_1'] = "Oturum başlamadı.";
+$locale['token_error_2'] = "Jeton gönderilmedi.";
+$locale['token_error_3'] = "Hatalı jeton.";
+$locale['token_error_4'] = "Jeton içinde geçersiz KullanıcıID.";
+$locale['token_error_5'] = "Geçersiz jeton zamanı."; //timestamp
+$locale['token_error_6'] = "Post çok hızlı gönderildi.";
+$locale['token_error_7'] = "Geçersiz jeton hash'i.";
+$locale['token_error_8'] = "Geçersiz jeton biçimi.";
 
-$locale['df_400'] = "%s contains invalid character.";
-$locale['df_401'] = "%s is not a valid email address.";
-$locale['df_402'] = "%s is not a valid password.";
-$locale['df_403'] = "%s is not a valid number.";
+$locale['df_400'] = "%s geçersiz karakter barındırıyor.";
+$locale['df_401'] = "%s geçersiz bir eposta adresi.";
+$locale['df_402'] = "%s geçersiz bir parola.";
+$locale['df_403'] = "%s geçersiz bir numara.";
 
-$locale['df_415'] = "Invalid filename.";
-$locale['df_416'] = "Upload file too large. File must be less than %s.";
-$locale['df_417'] = "Upload file is not a valid file type. Only %s are accepted.";
-$locale['df_418'] = "Upload file is fine, but the extension is invalid one. Please rename your file extension and try again.";
-$locale['df_419'] = "Image failed verification check. Please re-do your image.";
-$locale['df_420'] = "Folder does not exist. Please create the folder via FTP and try again.";
-$locale['df_421'] = "Image must be no bigger than %uw x %uh pixels.";
+$locale['df_415'] = "Geçersiz dosya adı.";
+$locale['df_416'] = "Dosya çok büyük. Dosya %s değerinden daha küçük olmalıdır.";
+$locale['df_417'] = "Yüklenen dosya geçersiz bir dosya biçimine sahip, sadece %s biçimleri destekleniyor.";
+$locale['df_418'] = "Dosya yüklenebiliyor, fakat geçersiz bir uzantıya sahip. Lütfen dosyanızın adını ve uzantısını kontrol edip yeniden deneyin.";
+$locale['df_419'] = "Resim kod bazlı kontrolden geçemedi. Lütfen resmi yeniden hazırlayıp yükleyin.";
+$locale['df_420'] = "Klasör bulunmuyor. Lütfen FTP üzerinden klasörü oluşturup yeniden deneyin.";
+$locale['df_421'] = "Resim %uw x %uh piksel değerinden daha büyük olmamalıdır.";
 ?>
