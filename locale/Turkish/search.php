@@ -1,48 +1,55 @@
 <?php
-$locale['400'] = "Search ".$settings['sitename'];
-$locale['401'] = "Search for:";
-$locale['402'] = "Search";
-$locale['403'] = "search any of those words";
-$locale['404'] = "result has to contain all those words";
-$locale['405'] = "Where:";
-$locale['406'] = "Options:";
-$locale['407'] = "Entire site";
-$locale['408'] = "Search Results";
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
+$locale['400'] = $settings['sitename']."'de arama yap";
+$locale['401'] = "Aranacak Kelime:";
+$locale['402'] = "Ara";
+$locale['403'] = "Bu Kelime(ler)in Her Birini Ayrı Ayrı Ara";
+$locale['404'] = "Bu Kelime(ler)in Hepsini Ara";
+$locale['405'] = "Nerede:";
+$locale['406'] = "Seçenekler:";
+$locale['407'] = "Tüm Site";
+$locale['408'] = "Arama Sonuçları";
 //addition date
-$locale['420'] = "Search:";
-$locale['421'] = "all";
-$locale['422'] = "last day";
-$locale['423'] = "last week";
-$locale['424'] = "last two weeks";
-$locale['425'] = "last month";
-$locale['426'] = "last three months";
-$locale['427'] = "last six months";
+$locale['420'] = "Arama:";
+$locale['421'] = "hepsi";
+$locale['422'] = "son 1 gün";
+$locale['423'] = "son 1 hafta";
+$locale['424'] = "son 2 hafta";
+$locale['425'] = "son 1 ay";
+$locale['426'] = "son 3 ay";
+$locale['427'] = "son 6 ay";
 //where
-$locale['430'] = "title and message";
-$locale['431'] = "only message";
-$locale['432'] = "only title";
+$locale['430'] = "başlık ve mesajlarda ara";
+$locale['431'] = "sadece mesajlarda ara";
+$locale['432'] = "sadece başlıklarda ara";
 //sort by
-$locale['440'] = "Sort by:";
-$locale['441'] = "addition date";
-$locale['442'] = "title";
-$locale['443'] = "author";
+$locale['440'] = "Sıralama:";
+$locale['441'] = "eklenme tarihi";
+$locale['442'] = "başlık";
+$locale['443'] = "yazar";
 //
-$locale['450'] = "descending";
-$locale['451'] = "ascending";
+$locale['450'] = "azalan";
+$locale['451'] = "artan";
 //characters in results
-$locale['460'] = "Show:";
-$locale['461'] = "characters in result";
-$locale['462'] = "entire text";
+$locale['460'] = "Her sonuçta";
+$locale['461'] = "karakter görüntüle";
+$locale['462'] = "tüm yazıyı görüntüle";
 //No results
-$locale['500'] = "No matches found.";
-$locale['501'] = "Search text must be at least 3 characters long.";
-$locale['502'] = "Search strings with less than three characters (%s) are ignored in the search.";
+$locale['500'] = "Arama kriterlerine göre sonuç bulunamadı.";
+$locale['501'] = "Aranacak kelime en az 3 karakterli olmalıdır.";
+$locale['502'] = "3 karakterden kısa olan (%s) kelime(ler)i aramaya dahil edilmedi.";
 //Global search
-$locale['510'] = "matches in global site search";
+$locale['510'] = "sonuç var tüm site aramalarında";
 //
-$locale['520'] = "match";
-$locale['521'] = "matches";
-$locale['522'] = "found matching search criteria";
+$locale['520'] = "sonuç";
+$locale['521'] = "sonuç";
+$locale['522'] = "bulundu arama kriterlerine göre";
 //more than 100 results
-$locale['530'] = "Please be more precise in your query. Your query returns %s results. We are displaying just 100 top results";
+$locale['530'] = "Lütfen arama kriterlerinizde daha dikkatli olun. Arama kriterleninize göre %s sonuç bulundu, fakat biz en popüler 100 tanesini görüntülüyoruz";
 ?>
