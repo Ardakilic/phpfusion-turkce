@@ -1,14 +1,21 @@
 <?php
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
 //news, articles
-$locale['400'] = "Posted by ";
-$locale['401'] = " on ";
-$locale['402'] = "Extended News";
+$locale['400'] = "Gönderen ";
+$locale['401'] = " - ";
+$locale['402'] = "Haber Metni";
 //forums
-$locale['500'] = "Thread subject:";
-$locale['501'] = "Posted by ";
-$locale['502'] = " on ";
-$locale['503'] = "Edited by ";
+$locale['500'] = "Konu Başlığı:";
+$locale['501'] = "Gönderen ";
+$locale['502'] = " - ";
+$locale['503'] = "Düzenleyen: ";
 //License Agreement
-$locale['600'] = "Terms of Agreement";
-$locale['601'] = "Last updated on:";
+$locale['600'] = "Kullanıcı Sözleşmesi";
+$locale['601'] = "Son Güncelleme:";
 ?>
