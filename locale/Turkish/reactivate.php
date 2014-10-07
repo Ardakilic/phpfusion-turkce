@@ -1,18 +1,25 @@
 <?php
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
 // Error messages
-$locale['500'] = "An error occurred";
-$locale['501'] = "The re-activation link you clicked is no longer valid.<br /><br />
-Contact the site's administrator at <a href='mailto:".$settings['siteemail']."'>".$settings['siteemail']."</a> if you want to request a manual re-activation.";
-$locale['502'] = "The re-activation link you clicked is invalid!<br /><br />
-Contact the site's administrator at <a href='mailto:".$settings['siteemail']."'>".$settings['siteemail']."</a> if you want to request a manual re-activation.";
-$locale['503'] = "The re-activation link you followed could not re-activate your account.<br />
-Perhaps your account has already been re-activated and in that case you should be able to <a href='".$settings['siteurl']."login.php'>log in here</a>.<br /><br />
-If you cannot log in now, please contact the site's administrator at <a href='mailto:".$settings['siteemail']."'>".$settings['siteemail']."</a> if you want to request a manual re-activation.";
+$locale['500'] = "Bir hata oluştu";
+$locale['501'] = "Tıklamış olduğunuz yeniden aktifleştirme linki geçerli değildir.<br /><br />
+Lütfen <a href='mailto:".$settings['siteemail']."'>".$settings['siteemail']."</a> adresi üzerinden site yöneticileri ile görüşerek manuel bir yeniden aktifleştirme linki talep edin.";
+$locale['502'] = "Tıklamış olduğunuz yeniden aktifleştirme linki geçerli değildir!<br /><br />
+Eğer manuel bir yeniden aktifleştirme linki istiyorsanız lütfen <a href='mailto:".$settings['siteemail']."'>".$settings['siteemail']."</a> adresi üzerinden site yöneticileri ile görüşün.";
+$locale['503'] = "Tıklamış olduğunuz yeniden aktifleştirme linki hesabınızı aktifleştiremedi.<br />
+Hesabınız zaten aktifleştirilmiş olabilir, eğer öyleyse <a href='".$settings['siteurl']."login.php'>bu linke tıklayarak</a> siteye giriş yapabilirsiniz.<br /><br />
+Eğer halen giriş yapamıyorsanız lütfen <a href='mailto:".$settings['siteemail']."'>".$settings['siteemail']."</a> adresi üzerinden site yöneticileri ile görüşerek manuel bir yeniden aktifleştirme linki talep edin.";
 // Send confirmation mail
-$locale['504'] = "Account re-activated at ".$settings['sitename'];
-$locale['505'] = "Hello [USER_NAME],\n
-Your account at ".$settings['sitename']." has been re-activated. We hope to see you more often at the site.\n\n
-Regards,\n\n
+$locale['504'] = "Hesabınız Aktifleştirildi: ".$settings['sitename'];
+$locale['505'] = "Merhaba [USER_NAME],\n
+".$settings['sitename']." üzerindeki hesabınız yeniden aktifleştirildi. Sizi sitemizde artık daha sık görmek isteriz.\n\n
+Saygılarımızla,\n\n
 ".$settings['siteusername'];
-$locale['506'] = "Reactivated by user.";
+$locale['506'] = "Üye tarafından yeniden aktifleştirilmiş.";
 ?>
