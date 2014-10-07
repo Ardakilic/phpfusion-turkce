@@ -1,36 +1,46 @@
 <?php
-$locale['400'] = "Photo Albums";
-$locale['401'] = "Open Album";
-$locale['402'] = "No thumbnail";
-$locale['403'] = "Date: ";
-$locale['404'] = "Created by: ";
-$locale['405'] = "Photos: ";
-$locale['406'] = "No Photos Albums defined.";
-$locale['420'] = "Album Information";
-$locale['421'] = "Album: ";
-$locale['422'] = "Number of photos: ";
-$locale['423'] = "Latest photo added by ";
-$locale['424'] = " on ";
-$locale['425'] = "No photos have been added to this album";
-$locale['430'] = "View Album";
-$locale['431'] = "Click to view";
-$locale['432'] = "No thumbnail";
-$locale['433'] = "Date: ";
-$locale['434'] = "Added by: ";
-$locale['435'] = "Views: ";
-$locale['436'] = "Comments: ";
-$locale['436b'] = "Comment: ";
-$locale['437'] = "Rating: ";
-$locale['438'] = "None";
-$locale['450'] = "View Photo";
-$locale['451'] = "Previous Photo";
-$locale['452'] = "Next Photo";
-$locale['453'] = "Click to view full image";
-$locale['454'] = "Dimensions: ";
-$locale['455'] = "pixels";
-$locale['456'] = "Filesize: ";
-$locale['457'] = "Number of views: ";
-$locale['458'] = "Click to close";
-$locale['459'] = "First photo";
-$locale['460'] = "Last photo";
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
+$locale['400'] = "Resim Albümleri";
+$locale['401'] = "Albüm Aç";
+$locale['402'] = "Küçük Resim Yok";
+$locale['403'] = "Tarih: ";
+$locale['404'] = "Oluşturan: ";
+$locale['405'] = "Resimler: ";
+$locale['406'] = "Resim Albümü Oluşturulmamış.";
+
+$locale['420'] = "Albüm Bilgisi";
+$locale['421'] = "Albüm: ";
+$locale['422'] = "Her Bir Resim Sırası: ";
+$locale['423'] = "En Son Resim Ekleyen ";
+$locale['424'] = " - ";
+$locale['425'] = "Bu albüme henüz bir resim eklenmemiş";
+
+$locale['430'] = "Albüm Gösterimi";
+$locale['431'] = "Görmek için Tıkla";
+$locale['432'] = "Küçük Resim Yok";
+$locale['433'] = "Tarih: ";
+$locale['434'] = "Ekleyen: ";
+$locale['435'] = "Görüntülenme: ";
+$locale['436'] = "Yorumlar: ";
+$locale['436b'] = "Yorum: ";
+$locale['437'] = "Beğenilme: ";
+$locale['438'] = "Hiçbiri";
+
+$locale['450'] = "Resim Göster";
+$locale['451'] = "Önceki Resim";
+$locale['452'] = "Sonraki Resim";
+$locale['453'] = "İmajı büyük olarak görebilmek için tıkla";
+$locale['454'] = "Çözünürlük: ";
+$locale['455'] = "piksel";
+$locale['456'] = "Dosya Boyutu: ";
+$locale['457'] = "Görüntülenme Miktarı: ";
+$locale['458'] = "Kapatmak için Tıkla";
+$locale['459'] = "İlk Resim";
+$locale['460'] = "Son Resim";
 ?>
