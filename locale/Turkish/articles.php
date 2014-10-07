@@ -1,8 +1,15 @@
 <?php
-$locale['400'] = "Articles";
-$locale['401'] = "No Article Categories defined";
-$locale['402'] = "NEW";
-$locale['403'] = "No Articles have been added to this Category";
-$locale['404'] = "Articles Home";
-$locale['405'] = "Articles Hierarchy";
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
+$locale['400'] = "Makaleler";
+$locale['401'] = "Henüz bir makale kategorisi oluşturulmamış.";
+$locale['402'] = "Yeni";
+$locale['403'] = "Bu kategoriye henüz bir makale eklenmemiş.";
+$locale['404'] = "Makaleler ana sayfası";
+$locale['405'] = "Makale Hiyerarşisi";
 ?>
