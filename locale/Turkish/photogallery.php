@@ -13,14 +13,12 @@ $locale['403'] = "Tarih: ";
 $locale['404'] = "Oluşturan: ";
 $locale['405'] = "Resimler: ";
 $locale['406'] = "Resim Albümü Oluşturulmamış.";
-
 $locale['420'] = "Albüm Bilgisi";
 $locale['421'] = "Albüm: ";
 $locale['422'] = "Her Bir Resim Sırası: ";
 $locale['423'] = "En Son Resim Ekleyen ";
 $locale['424'] = " - ";
 $locale['425'] = "Bu albüme henüz bir resim eklenmemiş";
-
 $locale['430'] = "Albüm Gösterimi";
 $locale['431'] = "Görmek için Tıkla";
 $locale['432'] = "Küçük Resim Yok";
@@ -31,7 +29,6 @@ $locale['436'] = "Yorumlar: ";
 $locale['436b'] = "Yorum: ";
 $locale['437'] = "Beğenilme: ";
 $locale['438'] = "Hiçbiri";
-
 $locale['450'] = "Resim Göster";
 $locale['451'] = "Önceki Resim";
 $locale['452'] = "Sonraki Resim";
