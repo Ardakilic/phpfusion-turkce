@@ -1,25 +1,32 @@
 <?php
-$locale['400'] = "Lost Password";
-$locale['401'] = "A confirmation email has been sent to your email address.";
-$locale['402'] = "Your new password has been sent to your email address.";
-$locale['403'] = "Return to Main Site";
-$locale['404'] = "The email address you specified could not be found.";
-$locale['405'] = "The email address you specified is invalid.";
-$locale['406'] = "Please try again.";
-$locale['407'] = "Please enter the email address your account is registered with below.<br />
-A new password will be created and sent to this address.";
-$locale['408'] = "Send Password";
-$locale['409'] = "New password for ";
-$locale['410'] = "Hello [USER_NAME],\n
-You have or someone has requested a new password to access your ".$settings['sitename']." account.\n
-To change your password please click the following link:\n
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
+$locale['400'] = "Kayıp Şifre";
+$locale['401'] = "Şifreniz belirtmiş olduğunuz elektronik posta adresine gönderilmiştir.";
+$locale['402'] = "Yeni şifreniz elektronik posta adresinize gönderilmiştir.";
+$locale['403'] = "Ana Sayfaya Geri Dön";
+$locale['404'] = "Yazmış olduğunuz elektronik posta adresi kayıtlarımızda bulunmamaktadır.";
+$locale['405'] = "Geçersiz elektronik posta Adresi. Lütfen doğru yazdığınıza emin olun.";
+$locale['406'] = "Lütfen Tekrar Deneyin.";
+$locale['407'] = "Lütfen sitemize üye olurken kullanmış olduğunuz elektronik posta adresini aşağıdaki bölüme yazınız.<br />
+Şifremi Gönder butonuna tıklayarak şifreniz belirtmiş olduğunuz elektronik posta adresine gönderilecektir.";
+$locale['408'] = "Şifremi Gönder";
+$locale['409'] = "Yeni Şifre Talebi -  ";
+$locale['410'] = "Merhaba [USER_NAME],\n
+Siz ya da başka biri tarafından ".$settings['sitename']." sitesinden yeni bir şifre talebinde bulunuldu.\n
+Şifrenizi değiştirebilmek için aşağıdaki linki tıklayınız:\n
 [NEW_PASS_LINK]\n
-Regards,
+Teşekkürler,
 ".$settings['siteusername'];
-$locale['411'] = "Hello [USER_NAME],\n
-Your new password to access your ".$settings['sitename']." account is:\n
+$locale['411'] = "Merhaba [USER_NAME],\n
+".$settings['sitename']." sitemize üye girişi yapabilmeniz için yeni şifreniz aşağıda yazmaktadır:\n
 [NEW_PASS]\n
-Regards,
+Teşekkürler,
 ".$settings['siteusername'];
-$locale['412'] = "There was an error, please try again.";
+$locale['412'] = "Bir hata meydana geldi, lütfen yeniden deneyin.";
 ?>
