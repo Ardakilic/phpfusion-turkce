@@ -1,13 +1,20 @@
 <?php
-$locale['c100'] = "Comments";
-$locale['c101'] = "No Comments have been Posted.";
-$locale['c102'] = "Post Comment";
-$locale['c103'] = "Update Comment";
-$locale['c104'] = "Name:";
-$locale['c105'] = "Please Login to Post a Comment.";
-$locale['c106'] = "Manage Comments";
-$locale['c107'] = " Disable smileys in this comment";
-$locale['c108'] = "Edit";
-$locale['c109'] = "Delete";
-$locale['c110'] = "Delete this Comment?";
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
+$locale['c100'] = "Yorumlar";
+$locale['c101'] = "Henüz yorum yazılmamış.";
+$locale['c102'] = "Yorum yaz";
+$locale['c103'] = "Yorum Güncelle";
+$locale['c104'] = "İsim:";
+$locale['c105'] = "Yorum göndermek için lütfen üye girişi yapın.";
+$locale['c106'] = "Yorumları Yönet";
+$locale['c107'] = " Bu yorumda yüz ifadelerini gizle";
+$locale['c108'] = "Düzenle";
+$locale['c109'] = "Sil";
+$locale['c110'] = "Bu yorumu silmek istediğinizden emin misiniz?";
 ?>
