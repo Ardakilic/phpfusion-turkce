@@ -1,64 +1,71 @@
 <?php
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
 // Greetings
-$locale['hello'] = "Hello!";
-$locale['goodbye'] = "Goodbye!";
-$locale['welcome'] = "Welcome back";
+$locale['hello'] = "Merhaba!";
+$locale['goodbye'] = "Güle Güle!";
+$locale['welcome'] = "Yeniden Hoş Geldin,";
 
 // Status
-$locale['error'] = "Error!";
-$locale['success'] = "Success!";
-$locale['enable'] = "Enable";
-$locale['disable'] = "Disable";
-$locale['no'] = "No";
-$locale['yes'] = "Yes";
-$locale['off'] = "Off";
-$locale['on'] = "On";
+$locale['error'] = "Hata!";
+$locale['success'] = "Başarı!";
+$locale['enable'] = "Aktifleştir";
+$locale['disable'] = "Pasifleştir";
+$locale['no'] = "Hayır";
+$locale['yes'] = "Evet";
+$locale['off'] = "Kapalı";
+$locale['on'] = "Açık";
 // Navigation
-$locale['next'] = "Next";
-$locale['pevious'] = "Previous";
-$locale['back'] = "Back";
-$locale['forward'] = "Forward";
+$locale['next'] = "Sonraki";
+$locale['pevious'] = "Önceki";
+$locale['back'] = "Geri";
+$locale['forward'] = "İleri";
 // Action
-$locale['add'] = "Add";
-$locale['save'] = "Save";
-$locale['update'] = "Update";
-$locale['remove'] = "Remove";
-$locale['search'] = "Search";
-$locale['help'] = "Help";
-$locale['register'] = "Register";
-$locale['ban'] = "Ban";
-$locale['reactivate'] = "Reactivate";
-$locale['user'] = "User";
-$locale['promote'] = "Promote";
+$locale['add'] = "Ekle";
+$locale['save'] = "Kaydet";
+$locale['update'] = "Güncelle";
+$locale['remove'] = "Kaldır";
+$locale['search'] = "Ara";
+$locale['help'] = "Yardım";
+$locale['register'] = "Kayıt";
+$locale['ban'] = "Engelle";
+$locale['reactivate'] = "Yeniden Aktif Et";
+$locale['user'] = "Kullanıcı";
+$locale['promote'] = "Terfi Ettir";
 //Tables
-$locale['status'] = "Status";
-$locale['order'] = "Order";
+$locale['status'] = "Durum";
+$locale['order'] = "Sıralama";
 $locale['id'] = "ID";
-$locale['title'] = "Title";
-$locale['rights'] = "Rights";
-$locale['image'] = "Image/Icons";
-$locale['info'] = "Info";
+$locale['title'] = "Başlık";
+$locale['rights'] = "İzinler";
+$locale['image'] = "Resim/İkonlar";
+$locale['info'] = "Bilgi";
 // Forms
-$locale['choose'] = "Please Choose One...";
-$locale['parent'] = "Create as New Parent..";
-$locale['order'] = "Item Ordering";
-$locale['status'] = "Status";
-$locale['note'] = "Make a note of this item";
-$locale['publish'] = "Published";
-$locale['unpublish'] = "Unpublished";
-$locale['draft'] = "Draft";
-$locale['settings'] = "Settings";
-$locale['posted'] = "posted";
-$locale['in'] = "in";
-$locale['profile'] = "Profile";
-$locale['edit'] = "Edit";
-$locale['view'] = "View";
-$locale['login'] = "Log in";
-$locale['logout'] = "Logout";
-$locale['admin-logout'] = "Admin Logout";
-$locale['message'] = "Private Messages";
-$locale['logged'] = "Logged in as ";
-$locale['version'] = "Version ";
-$locale['browse'] = "Browse ...";
+$locale['choose'] = "Lütfen birini seçin...";
+$locale['parent'] = "Yeni bir ana içerik olarak oluştur..";
+$locale['order'] = "Sıralama";
+$locale['status'] = "Durum";
+$locale['note'] = "Bu bileşenden bir not oluştur";
+$locale['publish'] = "Yayınlanma";
+$locale['unpublish'] = "Yayından kaldırılma";
+$locale['draft'] = "Taslak";
+$locale['settings'] = "Seçenekler";
+$locale['posted'] = "gönderim";
+$locale['in'] = ", ";
+$locale['profile'] = "Profil";
+$locale['edit'] = "Düzenle";
+$locale['view'] = "Görüntüle";
+$locale['login'] = "Giriş yap";
+$locale['logout'] = "Çıkış yap";
+$locale['admin-logout'] = "Yönetici Çıkışı";
+$locale['message'] = "Özel Mesajlar";
+$locale['logged'] = "Giriş yapan kullanıcı ";
+$locale['version'] = "Versiyon ";
+$locale['browse'] = "Gözat ...";
 
 ?>
