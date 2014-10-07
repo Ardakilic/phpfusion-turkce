@@ -1,12 +1,19 @@
 <?php
-$locale['400'] = "Members List";
-$locale['401'] = "User Name";
-$locale['402'] = "User Type";
-$locale['403'] = "There are no user names beginning with ";
-$locale['404'] = "Show All";
-$locale['405'] = "User groups";
-$locale['406'] = "Not registered to any group";
-$locale['407'] = "Access to all groups";
-$locale['408'] = "Search for member:";
-$locale['409'] = "Search";
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
+$locale['400'] = "Üye Listesi";
+$locale['401'] = "Kullanıcı Adı";
+$locale['402'] = "Kullanıcı Seviyesi";
+$locale['403'] = "Üye listemizde aradığınız harf ile başlayan isim bulunamadı. Harf: ";
+$locale['404'] = "Hepsini Göster";
+$locale['405'] = "Kullanıcı Grupları";
+$locale['406'] = "Hiçbir gruba kayıtlı değil";
+$locale['407'] = "Tüm gruplara erişim";
+$locale['408'] = "Kullanıcıyı ara:";
+$locale['409'] = "Ara";
 ?>
