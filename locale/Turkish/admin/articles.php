@@ -1,37 +1,44 @@
 <?php
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
 // Article titles
-$locale['400'] = "Add Article";
-$locale['401'] = "Edit Article";
-$locale['402'] = "Current Articles";
-$locale['403'] = "Articles";
+$locale['400'] = "Makale Ekle";
+$locale['401'] = "Makale Düzenle";
+$locale['402'] = "Mevcut Makaleler";
+$locale['403'] = "Makaleler";
 // Article messages
-$locale['410'] = "Article added";
-$locale['411'] = "Article updated";
-$locale['412'] = "Article deleted";
+$locale['410'] = "Makale eklendi";
+$locale['411'] = "Makale güncellendi";
+$locale['412'] = "Makale silindi";
 // Category form
-$locale['420'] = "Edit";
-$locale['421'] = "Delete";
-$locale['422'] = "Category:";
-$locale['423'] = "Subject:";
-$locale['424'] = "Snippet:";
-$locale['425'] = "Article:";
-$locale['426'] = "Save as Draft";
-$locale['427'] = "Automatic Line-Breaks";
-$locale['428'] = "Enable Comments";
-$locale['429'] = "Enable Ratings";
-$locale['430'] = "Preview Article";
-$locale['431'] = "Save Article";
-$locale['432'] = "Page Break";
-$locale['433'] = "[DRAFT]";
+$locale['420'] = "Düzenle";
+$locale['421'] = "Sil";
+$locale['422'] = "Kategori:";
+$locale['423'] = "Konu:";
+$locale['424'] = "Kısa Bilgi:";
+$locale['425'] = "Makale:";
+$locale['426'] = "Taslak Olarak Kaydet";
+$locale['427'] = "Otomatik Satır Atlama";
+$locale['428'] = "Yorumlara İzin Ver";
+$locale['429'] = "Oy Kullanılmasına İzin Ver";
+$locale['430'] = "Makaleyi Ön İzle";
+$locale['431'] = "Makaleyi Kaydet";
+$locale['432'] = "Ara Boşluk";
+$locale['433'] = "[TASLAK]";
 // Popup Error/Warning Messages
-$locale['450'] = "Please specify a subject";
-$locale['451'] = "Delete this article?";
-$locale['452'] = "There are no Article Categories defined";
-$locale['453'] = "You must define at least one category before you can add any Articles";
-$locale['454'] = "Click here";
-$locale['455'] = " to go to Article Categories";
-$locale['456'] = "%s are disabled for all items.<br />This setting will only take effect when they are enabled again.";
-$locale['457'] = "Comments";
-$locale['458'] = "Ratings";
-$locale['459'] = $locale['457']." and ".$locale['458'];
+$locale['450'] = "Lütfen bir konu adı belirtin";
+$locale['451'] = "Bu Makaleyi Silmek İstediğinizden Emin Misiniz?";
+$locale['452'] = "Tanımlanmış Makale Kategorisi Bulunamadı";
+$locale['453'] = "Makale eklemeden önce en az bir makale kategorisi oluşturmanız gerekir";
+$locale['454'] = "Buraya tıklayarak";
+$locale['455'] = " makale kategorilerine ulaşabilirsiniz";
+$locale['456'] = "%s tüm makaleler için kapatılmıştır.<br />Ayarı açılana kadar bu durum devam edecektir.";
+$locale['457'] = "Yorumlar";
+$locale['458'] = "Oylama";
+$locale['459'] = $locale['457']." ve ".$locale['458'];
 ?>
