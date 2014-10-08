@@ -1,47 +1,54 @@
 <?php
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
 // Administrators messages
-$locale['400'] = "Administrator added";
-$locale['401'] = "Administrator updated";
-$locale['402'] = "Administrator removed";
+$locale['400'] = "Yönetici eklendi";
+$locale['401'] = "Yönetici güncellendi";
+$locale['402'] = "Yönetici silindi";
 // Search/Add Administrator
-$locale['410'] = "Add Administrator";
-$locale['411'] = "Search for users to add using the form below.";
-$locale['412'] = "User ID";
-$locale['413'] = "User Name";
-$locale['414'] = "Search";
-$locale['415'] = "Apply all privileges";
-$locale['416'] = "Make Super Administrator";
-$locale['417'] = "Add Admin";
-$locale['418'] = "No users found.";
-$locale['419'] = "Search Again";
+$locale['410'] = "Yönetici ekle";
+$locale['411'] = "Aşağıdaki formdan üyeleri arayabilirsiniz.";
+$locale['412'] = "Kullanıcı ID";
+$locale['413'] = "Kullanıcı Adı";
+$locale['414'] = "Ara";
+$locale['415'] = "Tüm Yetkileri Ver";
+$locale['416'] = "Süper Yönetici Yap";
+$locale['417'] = "Yönetici Ekle";
+$locale['418'] = "Kullanıcı bulunamadı.";
+$locale['419'] = "Yeniden ara";
 // Current Administrators
-$locale['420'] = "Administrators";
-$locale['421'] = "User Name";
-$locale['422'] = "Admin Level";
-$locale['423'] = "Options";
-$locale['424'] = "Primary Admin";
-$locale['425'] = "No rights assigned";
-$locale['426'] = "Edit";
-$locale['427'] = "Remove";
+$locale['420'] = "Yöneticiler";
+$locale['421'] = "Kullanıcı adı";
+$locale['422'] = "Yönetici seviyesi";
+$locale['423'] = "Ayarlar";
+$locale['424'] = "Öncelikli yönetici";
+$locale['425'] = "Hiç yetkisi bulunamadı";
+$locale['426'] = "Düzenle";
+$locale['427'] = "Sil";
 // Edit Admin Rights
-$locale['440'] = "Edit Admin Rights";
-$locale['441'] = "Content Admin";
-$locale['442'] = "User Admin";
-$locale['443'] = "System Admin";
-$locale['444'] = "Infusions";
-$locale['445'] = "Check all";
-$locale['446'] = "UnCheck all";
-$locale['447'] = "Admin Password:";
-$locale['448'] = "Save Admin Rights";
-$locale['449'] = "Settings";
-$locale['450'] = "Check secure";
+$locale['440'] = "Yönetici Haklarını Düzenle";
+$locale['441'] = "İçerik Yönetimi";
+$locale['442'] = "Kullanıcı Yönetimi";
+$locale['443'] = "Sistem Yönetimi";
+$locale['444'] = "Modüller";
+$locale['445'] = "Hepsini Seç";
+$locale['446'] = "Seçilileri Kaldır";
+$locale['447'] = "Admin Parolası:";
+$locale['448'] = "Yönetici Yetkilerini kaydet";
+$locale['449'] = "Seçenekler";
+$locale['450'] = "Güvenlilik kontrolü";
 // Popup Error/Warning Messages
-$locale['460'] = "Remove this administrator?";
-$locale['461'] = "Add this administrator?";
-$locale['462'] = "Giving these admin rights to a user is a potential security risk!";
+$locale['460'] = "Bu yöneticinin yetkilerini almak istediğinizden emin misiniz?";
+$locale['461'] = "Bu yönetici eklensin mi?";
+$locale['462'] = "Bir üyeye yönetici yetkileri vermek potansiyel bir risk taşıyabilir, lütfen kararınızı gözden geçirin!";
 // Remove Admin confirmation
-$locale['470'] = "Delete Admin";
-$locale['471'] = "In order to remove this Administrator, please enter your admin password:";
-$locale['472'] = "Confirm";
-$locale['473'] = "Cancel";
+$locale['470'] = "Yönetici Sil";
+$locale['471'] = "Bu yöneticiyi silmek için lütfen admin parolasını girin:";
+$locale['472'] = "Doğrula";
+$locale['473'] = "İptal";
 ?>
