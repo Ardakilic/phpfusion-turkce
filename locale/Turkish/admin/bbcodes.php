@@ -1,26 +1,33 @@
 <?php
-$locale['400'] = "BB Codes Admin";
-$locale['401'] = "Test BB Codes";
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
+$locale['400'] = "BB Kod Yönetimi";
+$locale['401'] = "BB Kodlarını Test Et";
 // Enabled BB Codes
-$locale['402'] = "Enabled BB Codes";
-$locale['403'] = "Name";
-$locale['404'] = "Icon";
-$locale['405'] = "Description";
-$locale['406'] = "Usage";
-$locale['407'] = "Order";
-$locale['408'] = "Down";
-$locale['409'] = "Up";
-$locale['410'] = "Disable";
-$locale['411'] = "There are no BB Codes enabled.";
+$locale['402'] = "Aktif BB Kodları";
+$locale['403'] = "İsim";
+$locale['404'] = "İkon";
+$locale['405'] = "Açıklama";
+$locale['406'] = "Kullanım";
+$locale['407'] = "Sıra";
+$locale['408'] = "Aşağı";
+$locale['409'] = "Yukarı";
+$locale['410'] = "Pasifleştir";
+$locale['411'] = "Aktif BB Kodu Bulunamadı.";
 // Disabled BB Codes
-$locale['413'] = "Disabled BB Codes";
-$locale['414'] = "Enable";
-$locale['415'] = "Line break";
-$locale['416'] = "There are no BB Codes disabled.";
+$locale['413'] = "Pasif BB Kodları";
+$locale['414'] = "Aktif Et";
+$locale['415'] = "Satır Atlama";
+$locale['416'] = "Aktif Edilmemiş BB Kodu Bulunamadı.";
 // Test BB Codes
-$locale['417'] = "BB Codes Test Output";
-$locale['418'] = "Disable smileys in this test";
-$locale['418a'] = "Test Message";
-$locale['418b'] = "Please enter a message to test BBcodes.";
+$locale['417'] = "BB Kodları Çıktısı Testi";
+$locale['418'] = "Bu testte yüz ifadelerini gizle";
+$locale['418a'] = "Mesajı Test Et";
+$locale['418b'] = "BB Kodları test etmek için lütfen bir mesaj girin.";
 
 ?>
