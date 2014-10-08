@@ -1,47 +1,54 @@
 <?php
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
 // Infusion titles & description
-$locale['apw_title'] = "Administrator Password Reset";
-$locale['apw_desc'] = "Changes Administrator login/admin passwords";
-$locale['apw_admin1'] = "Administrator Reset";
-$locale['400'] = "Administrator(s) to reset:";
-$locale['401'] = "All Administrators";
-$locale['402'] = "Only Super Administrators";
-$locale['403'] = "Only Administrators";
-$locale['404'] = "Justification for reset:";
-$locale['405'] = "Reset both login and admin passwords";
-$locale['406'] = "Reset Passwords";
-$locale['407'] = "Password reset at ";
-$locale['408'] = "Hello [USER_NAME],
+$locale['apw_title'] = "Yönetici Parolası Sıfırlama";
+$locale['apw_desc'] = "Yöneticinin Giriş/Yönetim parolası'nı değiştirir.";
+$locale['apw_admin1'] = "Yönetici Sıfırlama";
+$locale['400'] = "Sıfırlanacak Yönetici(ler):";
+$locale['401'] = "Tüm Yöneticiler";
+$locale['402'] = "Sadece Süper Yöneticiler";
+$locale['403'] = "Sadece Yöneticiler";
+$locale['404'] = "Sıfırlama ayarı:";
+$locale['405'] = "Hem giriş, hem yönetici paneli parolalarını sıfırla";
+$locale['406'] = "Parolalarını sıfırla";
+$locale['407'] = "Şunda sıfırla: ";
+$locale['408'] = "Merhaba [USER_NAME],
 
-Your admin password has been reset at ".$settings['siteurl'].":
+".$settings['siteurl']." adresinde yönetici parolan sıfırlandı:
 
-Admin Password: [NEW_ADMIN_PASS]
+Yeni yönetici parolan: [NEW_ADMIN_PASS]
 
-The reason for this reset is: [RESET_MESSAGE]
+Sıfırlanma sebebi: [RESET_MESSAGE]
 
-Regards,
+Saygılarımızla,
 [ADMIN]";
-$locale['409'] = "Hello [USER_NAME],
+$locale['409'] = "Merhaba [USER_NAME],
 
-Your login and admin passwords have been reset at ".$settings['siteurl'].":
+".$settings['siteurl']." adresinde giriş ve yönetici parolan sıfırlandı:
 
-Login Password: [NEW_PASS]
-Admin Password: [NEW_ADMIN_PASS]
+Giriş Parolan: [NEW_PASS]
+Yönetici Parolan: [NEW_ADMIN_PASS]
 
-The reason for this reset is: [RESET_MESSAGE]
+Sıfırlanma sebebi: [RESET_MESSAGE]
 
-Regards,
+Saygılarımızla,
 [ADMIN]";
-$locale['410'] = "Reset Results";
-$locale['411'] = "<strong>Notice:</strong> Admin Password not entered or incorrect.";
-$locale['412'] = "Admin Password:";
-$locale['415'] = "Reset Log";
-$locale['416'] = "Log ID";
-$locale['417'] = "Reset time";
-$locale['418'] = "Responsible";
-$locale['419'] = "Reset";
-$locale['420'] = "Successfull";
-$locale['421'] = "Reason";
-$locale['422'] = "of";
-$locale['423'] = "No reason given.";
+$locale['410'] = "Sıfırlama Sonuçları";
+$locale['411'] = "<strong>Uyarı:</strong> Yönetici parolası girilmedi veya hatalı.";
+$locale['412'] = "Yönetici Parolası:";
+$locale['415'] = "Sıfırlama geçmişi";
+$locale['416'] = "Geçmiş (Log) ID";
+$locale['417'] = "Sıfırlama zamanı";
+$locale['418'] = "Sorumlu olan";
+$locale['419'] = "Sıfırlama";
+$locale['420'] = "Başarılı";
+$locale['421'] = "Sebep";
+$locale['422'] = " - ";
+$locale['423'] = "Sebep girilmemiş.";
 ?>
