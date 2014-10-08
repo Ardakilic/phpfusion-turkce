@@ -1,42 +1,49 @@
 <?php
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
 // Delete blacklisted user
-$locale['400'] = "Delete user from Blacklist";
-$locale['401'] = "User deleted from Blacklist";
-$locale['402'] = "Return to Blacklist Admin";
-$locale['403'] = "Return to Admin Index";
-$locale['404'] = "Please enter Blacklist IP or Blacklist Email";
-$locale['405'] = "Blacklist email address is not valid email.";
+$locale['400'] = "Kullanıcıyı Kara Listeden Sil";
+$locale['401'] = "Kullanıcı Kara Listeden Silindi";
+$locale['402'] = "Kara Liste Yönetimine Geri Dön";
+$locale['403'] = "Site Yönetimine Geri Dön";
+$locale['404'] = "Lütfen Kara Listeye eklenecek IP veya eposta adresini girin";
+$locale['405'] = "Girmiş olduğunuz eposta geçerli bir eposta değil.";
 // Add/Edit Blacklist Titles
-$locale['420'] = "Blacklist User";
-$locale['421'] = "Edit blacklisted user";
+$locale['420'] = "Kara Listeye Ekle";
+$locale['421'] = "Kara listeye eklenmiş üyeyü düzenle";
 // Add/Edit blacklist form
-$locale['440'] = "Entering an IP address will prevent a user whose IP address matches the entry from visiting this site.
-You can enter a full IP, e.g. <em>123.45.67.89.</em>, or a partial IP, e.g. <em>123.45.67</em> or <em>123.45</em>.
-Please note: IPv6 addresses are converted to their full length form on this site, 
-e.g. <em>ABCD:1234:5:6:7:8:9:FF</em> will be shown as <em>ABCD:1234:0005:0006:0007:0008:0009:00FF</em>.
-Mixed IP addresses (those contain both IPv6 and IPv4 part) will not be checked for partial match.
+$locale['440'] = "Bu siteye girisini engellemek istediğiniz kullanicinin IP adresini yada mail adresini yazarak kullanıcıyı 
+yasaklı kullanıcılar listesine ekleyebilirsiniz. İsterseniz kullanıcı siteye geldiğinde bir sebep gösterebilirsiniz.
+Lütfen unutmayın: IPv6 adresleri sitemizde tam uzunlıklarına dönüştürülmektedirler, 
+Örneğin, <em>ABCD:1234:5:6:7:8:9:FF</em> şu şekilde gözükecektir: <em>ABCD:1234:0005:0006:0007:0008:0009:00FF</em>.
+Bu islemi yapmak için IP adresini tam olarak örn: <em>123.123.123.123</em>, ya da <em>123.123.123 , 123.123</em> gibi bir bölümünü girerek yapabilirsiniz. Karışık IP adresleri (Hem IPv6 hem IPv4 kısımları içerenler) kara listede kısmi eşleşme için kontrol edilmeyeceklerdir.
 <br /><br />
-Entering an email address will prevent members from registering using that address.
-You can enter a full email address, e.g. <em>foo@bar.com</em>, or an email domain, e.g. <em>bar.com</em>.";
-$locale['441'] = "Blacklist IP address: <strong>or</strong>";
-$locale['442'] = "Blacklist email address:";
-$locale['443'] = "Blacklist reason";
-$locale['444'] = "Blacklist user";
+Aynı şekilde e-posta adresi kullanarak da kullanıcıyı yasaklılar listesine dahil edebilirsiniz.
+örn: <em>isim@adres.com</em>, ya da tüm domain ismini de yasaklayabilirsiniz. örn: <em>adres.com</em>";
+$locale['441'] = "Kara Listeye Eklenecek IP Adresi: <strong>ya da</strong>";
+$locale['442'] = "Kara Listeye Eklenecek E-mail Adresi:";
+$locale['443'] = "Kara Listeye Eklenme Sebebi";
+$locale['444'] = "Kara Listeye Ekle";
 // Current blacklisted users
-$locale['460'] = "Blacklisted users";
-$locale['461'] = "Blacklisted info";
-$locale['462'] = "Options";
-$locale['463'] = "Edit";
-$locale['464'] = "Delete";
-$locale['465'] = "The blacklist is currently empty.";
-$locale['466'] = "N/A";
-$locale['467'] = "Admin";
-$locale['468'] = "Date";
+$locale['460'] = "Kara Listedeki Üyeler";
+$locale['461'] = "Kara Liste Bilgisi";
+$locale['462'] = "Seçenekler";
+$locale['463'] = "Düzenle";
+$locale['464'] = "Sil";
+$locale['465'] = "Kara Liste şu anda boş.";
+$locale['466'] = "Yok";
+$locale['467'] = "Yönetici";
+$locale['468'] = "Tarih";
 /*
 // IPv6 secific
-$locale['480'] = "IPv6 options";
-$locale['481'] = "The specified IPv6 address contains a shortcut (::) therefore cannot be determined unequivocally.";
-$locale['482'] = "Which version would you use?";
-$locale['483'] = "Save";
+$locale['480'] = "IPv6 seçenekleri";
+$locale['481'] = "Belirtilmiş IPv6 adresi bir kısa yol (::) içermekte, bu nedenle anlaşılır bir şekilde algılanamadı.";
+$locale['482'] = "Hangi sürümü kullanmak istersiniz?";
+$locale['483'] = "Kaydet";
 */
 ?>
