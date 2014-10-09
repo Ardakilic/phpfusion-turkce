@@ -1,16 +1,23 @@
 <?php
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
 // Titles
 $locale['400'] = "robots.txt";
 // Messages
-$locale['410'] = "Are you sure? robots.txt file will be set to default.";
-$locale['411'] = "robots.txt file does not exist. Please create the file in the root directory and try again.";
-$locale['412'] = "robots.txt file updated.";
-$locale['413'] = "The following error has occured:";
-$locale['414'] = "robots.txt file is not writable.";
-$locale['415'] = "Unable to write to robots.txt file.";
+$locale['410'] = "Emin misiniz? robots.txt dosyası varsayılan olarak ayarlanacaktır.";
+$locale['411'] = "robots.txt dosyası bulunamadı. Lütfen kök klasöre bu dosyayı oluşturup yeniden deneyin.";
+$locale['412'] = "robots.txt dosyası güncellendi.";
+$locale['413'] = "Aşağıdaki hatalar meydana geldi:";
+$locale['414'] = "robots.txt dosyası yazılabilir değil.";
+$locale['415'] = "robots.txt dosyasına yazılamadı.";
 // Edit form
-$locale['420'] = "Edit your robots.txt file";
-$locale['421'] = "You can find more information and help about the robots.txt here.";
-$locale['422'] = "Save";
-$locale['423'] = "Set back to default";
+$locale['420'] = "robots.txt dosyanızı düzenleyin";
+$locale['421'] = "robots.txt dosyası hakkında detaylı bilgi ve de yardımı buradan edinebilirsiniz.";
+$locale['422'] = "Kaydet";
+$locale['423'] = "Varsayılana dön";
 ?>
