@@ -1,83 +1,90 @@
 <?php
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
 // Forum Category titles
-$locale['400'] = "Add Forum Category";
-$locale['401'] = "Edit Forum Category";
+$locale['400'] = "Forum Kategorisi Ekle";
+$locale['401'] = "Forum Kategorisi Düzenle";
 // Forum Category messages
-$locale['410'] = "Forum Category added";
-$locale['411'] = "Forum Category updated";
-$locale['412'] = "The Forum Category cannot be deleted";
-$locale['413'] = "There are forums associated with this category";
-$locale['414'] = "Forum Category deleted";
+$locale['410'] = "Forum Kategorisi Eklendi";
+$locale['411'] = "Forum Kategorisi Güncellendi";
+$locale['412'] = "Forum kategorisi silinemedi";
+$locale['413'] = "Mevcut forum kategorisi aldında forum(lar) bulunmakta";
+$locale['414'] = "Forum kategorisi silindi";
 // Forum Category form
-$locale['420'] = "Category Name";
-$locale['420b'] = "Category Description";
-$locale['421'] = "Order";
-$locale['422'] = "Save Category";
+$locale['420'] = "Kategori Adı";
+$locale['420b'] = "Kategori Açıklamsı";
+$locale['421'] = "Sıra";
+$locale['422'] = "Kategoriyi Kaydet";
 // Delete Forum Category
-$locale['440'] = "Delete Forum Category?";
+$locale['440'] = "Forum Kategorisi Silinsin Mi?";
 // Forum titles
-$locale['500'] = "Add Forum";
-$locale['501'] = "Edit Forum";
+$locale['500'] = "Forum Ekle";
+$locale['501'] = "Forum Düzenle";
 // Forum Category messages
-$locale['510'] = "Forum added";
-$locale['511'] = "Forum updated";
-$locale['512'] = "The Forum cannot be deleted";
-$locale['513'] = "There are threads associated with this category";
-$locale['514'] = "Forum deleted";
-$locale['515'] = "Forum Moderators updated";
-$locale['516'] = "Please enter a category name.";
-$locale['517'] = "Please enter a unique forum name.";
+$locale['510'] = "Forum eklendi";
+$locale['511'] = "Forum güncellendi";
+$locale['512'] = "Forum silinemedi";
+$locale['513'] = "Bu forum altında başlıklar mevcut";
+$locale['514'] = "Forum silindi";
+$locale['515'] = "Forum Moderatörleri güncellendi";
+$locale['516'] = "Lütfen bir kategori adı giriniz.";
+$locale['517'] = "Lütfen bir eşsiz bir forum adı giriniz.";
 // Add/Edit Forum Form
-$locale['520'] = "Forum Name:";
-$locale['521'] = "Forum Description:";
-$locale['522'] = "Forum Category:";
-$locale['523'] = "Order:";
-$locale['524'] = "Forum Privileges";
-$locale['525'] = "Forum Access:";
-$locale['526'] = "Create Threads:";
-$locale['527'] = "Post Replies:";
-$locale['528'] = "Add Attachments:";
-$locale['529'] = "Create Polls:";
-$locale['530'] = "Cast Votes:";
-$locale['531'] = "Off";
-$locale['532'] = "Save Forum";
-$locale['533'] = "Forum Moderators";
-$locale['534'] = "Save Forum Moderators";
-$locale['535'] = "Download Attachments:";
+$locale['520'] = "Forum Adı:";
+$locale['521'] = "Forum Açıklaması:";
+$locale['522'] = "Forum Kategorisi:";
+$locale['523'] = "Sıra:";
+$locale['524'] = "Forum İzinleri";
+$locale['525'] = "Forum Erişim:";
+$locale['526'] = "Başlık Oluşturabilme:";
+$locale['527'] = "Cevap Yazma:";
+$locale['528'] = "Ek Dosya Ekleme:";
+$locale['529'] = "Anket Oluşturma:";
+$locale['530'] = "Oy Kullanabilme:";
+$locale['531'] = "Kapalı";
+$locale['532'] = "Forumu Kaydet";
+$locale['533'] = "Forum Moderatörleri";
+$locale['534'] = "Forum Moderatörlerini Kaydet";
+$locale['535'] = "Ek Dosyaları İndirme:";
 // Forum Settings
-$locale['540'] = "Forum Settings:";
-$locale['541'] = "Post Merger:";
-$locale['542'] = "Enabled";
-$locale['543'] = "Disabled";
+$locale['540'] = "Forum Ayarları:";
+$locale['541'] = "Mesaj Birleştirici:";
+$locale['542'] = "Aktif";
+$locale['543'] = "Pasif";
 // Current Forums
-$locale['550'] = "Current Forums";
-$locale['551'] = "Category/Forum";
-$locale['552'] = "Order";
-$locale['553'] = "Options";
-$locale['554'] = "Edit";
-$locale['555'] = "Delete";
-$locale['556'] = "Up";
-$locale['557'] = "Down";
-$locale['558'] = "Move up";
-$locale['559'] = "Move down";
-$locale['560'] = "No Forum Categories defined";
-$locale['561'] = "No Forums defined";
-$locale['562'] = "Refresh Forum Ordering";
-$locale['563'] = "Prune";
+$locale['550'] = "Mevcut Forumlar";
+$locale['551'] = "Kategori/Forum";
+$locale['552'] = "Sıralama";
+$locale['553'] = "Seçenekler";
+$locale['554'] = "Düzenle";
+$locale['555'] = "Sil";
+$locale['556'] = "Yukarı";
+$locale['557'] = "Aşağı";
+$locale['558'] = "Yukarı taşı";
+$locale['559'] = "Aşağı taşı";
+$locale['560'] = "Forum Kategorisi Oluşturulmamış";
+$locale['561'] = "Hiç Forum Oluşturulmamış";
+$locale['562'] = "Forum Sıralamasını Yenile";
+$locale['563'] = "Temizle";
 // Delete Forum
-$locale['570'] = "Delete Forum?";
+$locale['570'] = "Forumu silmek istediğinizden emin misiniz?";
 // Pruning
-$locale['600'] = "Prune Forum";
-$locale['601'] = "This procedure will remove threads and posts";
-$locale['602'] = "that are older than the selected period of time.";
-$locale['603'] = "Prune Period: ";
-$locale['604'] = "Week";
-$locale['605'] = "Weeks";
-$locale['606'] = "Month";
-$locale['607'] = "Months";
-$locale['608'] = "Forum pruning complete.";
-$locale['609'] = "Posts Deleted: ";
-$locale['610'] = "Attachments Deleted: ";
-$locale['611'] = "Threads Deleted: ";
-$locale['612'] = "Pruned threads, posts and attachmenst will be lost. Do you really want to prune this forum?";
+$locale['600'] = "Forumu Temizle";
+$locale['601'] = "Bu işlem forumda eski başlıkların temizlenmesini sağlar.";
+$locale['602'] = "Aşağıdan seçtiğiniz süreçten daha eski başlıklar silinecektir.";
+$locale['603'] = "Temizleme Süreci: ";
+$locale['604'] = "Hafta";
+$locale['605'] = "Hafta";
+$locale['606'] = "Ay";
+$locale['607'] = "Ay";
+$locale['608'] = "Forum temizleme başarılı.";
+$locale['609'] = "Silinen mesaj sayısı: ";
+$locale['610'] = "Silinen ek dosya sayısı: ";
+$locale['611'] = "Silinen başlık sayısı: ";
+$locale['612'] = "Silinen başlık, mesaj ve ek dosyalar geri dönüşümü olmayacak şekilde silinecektir. Bu forumu temizlemek istediğinizden emin misiniz?";
 ?>
