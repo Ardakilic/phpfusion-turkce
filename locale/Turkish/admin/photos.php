@@ -1,83 +1,90 @@
 <?php
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
 // Album titles
-$locale['400'] = "Add Photo";
-$locale['401'] = "Edit Photo";
-$locale['402'] = "Current Photos";
-$locale['403'] = "Serious Photoalbum Error";
+$locale['400'] = "Resim Ekle";
+$locale['401'] = "Resim Düzenle";
+$locale['402'] = "Mevcut Resimler";
+$locale['403'] = "Ciddi Resim Albümü Hatası";
 // Album messages
-$locale['410'] = "Photo(s) added";
-$locale['411'] = "Photo updated";
-$locale['412'] = "Photo thumbnail deleted";
-$locale['413'] = "Photo deleted";
-$locale['414'] = "The following error has occured:";
-$locale['415'] = "Invalid image filename.";
-$locale['416'] = "Image must be less than %s.";
-$locale['417'] = "Image must be a GIF, JPEG or PNG file.";
-$locale['418'] = "Image must be no bigger than %uw x %uh pixels.";
-$locale['419'] = "Photo(s) moved.";
-$locale['420'] = "No GD library detected. Photoalbums will not work without GD library. Contact your hosting provider for further information.";
-$locale['421'] = "Image can not be empty.";
-$locale['422'] = "Selected folder is not writable. Change it to CHMOD 777.";
+$locale['410'] = "Resim(ler) eklendi";
+$locale['411'] = "Resim güncellendi";
+$locale['412'] = "Resim küçük resmi silindi";
+$locale['413'] = "Resim silindi";
+$locale['414'] = "Bir hata oluştu:";
+$locale['415'] = "Hatalı resim dosya adı.";
+$locale['416'] = "Resim %s dan küçük olmalıdır.";
+$locale['417'] = "Resim GIF, JPEG ya da PNG formatında olmalıdır.";
+$locale['418'] = "Resim %uw x %uh pikselden küçük olmalıdır.";
+$locale['419'] = "Resim(ler) taşındı.";
+$locale['420'] = "GD kütüphanesi bulunamadı. Resim albümleri GD kütüphanesi olmadan çalışamaz. Detaylı bilgi için hosting sağlayıcınız ile görüşün.";
+$locale['421'] = "Resim boş olamaz.";
+$locale['422'] = "Seçilen klasör yazılabilir değil. Lütfen CHMOD'unu 777 olarak değiştirin.";
 // Photos form
-$locale['430'] = "Move photo into album";
-$locale['431'] = "Move";
-$locale['432'] = "Title: ";
-$locale['433'] = "Description: ";
-$locale['434'] = "Order: ";
-$locale['435'] = "Thumb: ";
-$locale['436'] = "Image: ";
-$locale['437'] = "Enable Comments";
-$locale['438'] = "Enable Ratings";
-$locale['439'] = "Save Photo";
-$locale['440'] = "Cancel";
+$locale['430'] = "Resmi albüme taşı";
+$locale['431'] = "Taşı";
+$locale['432'] = "Resim Adı: ";
+$locale['433'] = "Açıklama: ";
+$locale['434'] = "Sıra: ";
+$locale['435'] = "Küçük Resim: ";
+$locale['436'] = "Resim: ";
+$locale['437'] = "Yorumlara izin ver";
+$locale['438'] = "Oy kullanılmasına izin ver";
+$locale['439'] = "Resmi Kaydet";
+$locale['440'] = "Vazgeç";
 // Current Photos
-$locale['450'] = "No image";
-$locale['451'] = "Click to view";
-$locale['452'] = "Move up";
-$locale['453'] = "Move down";
-$locale['454'] = "Edit";
-$locale['455'] = "Delete";
-$locale['456'] = "Date: ";
-$locale['457'] = "Added by: ";
-$locale['458'] = "Views: ";
-$locale['459'] = "Comments: ";
+$locale['450'] = "Resim Yok";
+$locale['451'] = "Görüntülemek için tıklayın";
+$locale['452'] = "Yukarı taşı";
+$locale['453'] = "Aşağı Taşı";
+$locale['454'] = "Düzenle";
+$locale['455'] = "Sil";
+$locale['456'] = "Tarih: ";
+$locale['457'] = "Ekleyen: ";
+$locale['458'] = "Görüntülenme: ";
+$locale['459'] = "Yorum Adedi: ";
 // Current Photos options
-$locale['470'] = "Select all";
-$locale['471'] = "Unselect all";
-$locale['472'] = "Move into album";
-$locale['473'] = "Select album";
-$locale['474'] = "Move selected";
-$locale['475'] = "Move all";
-$locale['476'] = "Close Album";
+$locale['470'] = "Tümünü seç";
+$locale['471'] = "Hiçbirini seçme";
+$locale['472'] = "Albüme taşı";
+$locale['473'] = "Albüm seç";
+$locale['474'] = "Seçileni taşı";
+$locale['475'] = "Tümünü taşı";
+$locale['476'] = "Albümü Kapat";
 // Additional notices
-$locale['480'] = "No Photos defined.";
-$locale['481'] = "Move selected photos?";
-$locale['482'] = "Move all photos?";
+$locale['480'] = "Resim bulunamadı.";
+$locale['481'] = "Seçilen Resimler Taşınsın Mı?";
+$locale['482'] = "Tüm Resimler Taşınsın Mı?";
 //Mass Upload
-$locale['490'] = "Add Folder";
-$locale['491'] = "Add folder to album";
-$locale['492'] = "Add photos to album";
-$locale['493'] = "Upload single photos";
-$locale['494'] = "Upload folder with photos";
-$locale['495'] = "Upload multiple photos";
-$locale['496'] = "<strong>Warning:</strong><br />Photo title and description of each uploaded photo will be empty,<br />you can enter them later by editing each photo!";
-$locale['497'] = "1. Upload your folder with photos to directory <em>%s</em>.";
-$locale['498'] = "2. Select the folder you want to add to album <strong>%s</strong>.";
-$locale['499'] = "Select folder:";
-$locale['500'] = "Add selected folder to album";
-$locale['501'] = "No folders found";
-$locale['502'] = "%s is not writable!";
-$locale['503'] = "Please change the directory permissions to 0777 and click on the button to reload this page.";
-$locale['504'] = "Refresh";
-$locale['505'] = "1. Upload your photos to folder <em>%s</em>.";
-$locale['506'] = "2. Select the photos you want to add to album <strong>%s</strong>.";
-$locale['507'] = "3. You can select more than one photo by holding the key [SHIFT] or [CTRL] while clicking.";
-$locale['508'] = "Select photo(s):";
-$locale['509'] = "Add selected photo(s) to album";
-$locale['510'] = "No photos found";
+$locale['490'] = "Klasör Ekle";
+$locale['491'] = "Albüme klasör ekle";
+$locale['492'] = "Albüme resimler ekle";
+$locale['493'] = "Tek resim yükleme";
+$locale['494'] = "Resim ekli klasör yükle";
+$locale['495'] = "Çoklu resim yükleme";
+$locale['496'] = "<strong>Uyarı:</strong><br />Her resim için resim başlığı ve de açıklamaları boş olacaktır,<br /> o verileri daha sonra resimleri düzenleyerek ekleyebilirsiniz!";
+$locale['497'] = "1. İçerisinde resimlerin yüklü olduğu klasörünümüzü şu klasörün içerisine yükleyin: <em>%s</em>.";
+$locale['498'] = "2. <strong>%s</strong> albüme dahil etmek istediğiniz klasörü seçin.";
+$locale['499'] = "Klasör seçin:";
+$locale['500'] = "Seçili klasörü albüme yükle";
+$locale['501'] = "Klasör bulunamadı";
+$locale['502'] = "%s yazılabilir değil!";
+$locale['503'] = "Lütfen klasörün yazılabilirliğini (CHMOD) 0777 olarak değiştirip sayfayı yenilemek için yenile butonuna basın.";
+$locale['504'] = "Yenile";
+$locale['505'] = "1. Resimleri <em>%s</em> klasörüne yükleyin.";
+$locale['506'] = ". <strong>%s</strong> albüme dahil etmek istediğiniz resimleri seçin.";
+$locale['507'] = "3. Birden fazla resmi [SHIFT] ya da [CTRL] tuşlarına basılı tutarak seçebilirsiniz.";
+$locale['508'] = "Resim(ler)i seçin:";
+$locale['509'] = "Seçili resim(ler)i albüme dahil edin";
+$locale['510'] = "Resimler bulunamadı";
 // Messages
-$locale['520'] = "%s are disabled for all items.<br />This setting will only take effect when they are enabled again.";
-$locale['521'] = "Comments";
-$locale['522'] = "Ratings";
-$locale['523'] = $locale['521']." and ".$locale['522'];
+$locale['520'] = "%s tüm resimler için kapatılmıştır.<br />Ayarı açılana kadar bu durum devam edecektir..";
+$locale['521'] = "Yorumlar";
+$locale['522'] = "Oylama";
+$locale['523'] = $locale['521']." ve ".$locale['522'];
 ?>
