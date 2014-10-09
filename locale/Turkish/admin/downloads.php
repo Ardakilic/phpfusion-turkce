@@ -1,61 +1,68 @@
 <?php
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
 // Downloads titles
-$locale['400'] = "Add Download";
-$locale['401'] = "Edit Download";
-$locale['402'] = "Current Downloads";
+$locale['400'] = "Dosya Ekle";
+$locale['401'] = "Dosya Düzenle";
+$locale['402'] = "Mevcut Dosyalar";
 // Downloads messages
-$locale['410'] = "Download added";
-$locale['411'] = "Download updated";
-$locale['412'] = "Download deleted";
-$locale['413'] = "The following error has occured:";
-$locale['414'] = "Invalid filename.";
-$locale['415'] = "File must be less than %s.";
-$locale['415a'] = "Image must be less than %s.";
-$locale['415b'] = "Image must be smaller than %s.";
-$locale['416'] = "File must be one of the following file types: %s.";
-$locale['416a'] = "Image must be one of the following file types: %s.";
-$locale['417'] = "Download title cannot be left empty.";
-$locale['418'] = "Download file or url cannot be left empty.";
-$locale['419'] = "Download short description cannot be left empty.";
-$locale['419a'] = "Unknown error";
+$locale['410'] = "Dosya eklendi";
+$locale['411'] = "Dosya güncellendi";
+$locale['412'] = "Dosya silindi";
+$locale['413'] = "Bir hata ile karşılaşıldı:";
+$locale['414'] = "Geçersiz dosya adı.";
+$locale['415'] = "Dosya %s boyutundan daha küçük olmalıdır.";
+$locale['415a'] = "Resim %s den ufak olmalı.";
+$locale['415b'] = "Resim %s den düşük boyutta olmalı.";
+$locale['416'] = "Dosya şu uzantılardan birine sahip olmalıdır: %s.";
+$locale['416a'] = "Resim aşağıdaki formatlardan birine sahip olmalı: %s.";
+$locale['417'] = "Dosya başlığı boş bırakılamaz.";
+$locale['418'] = "İndirme dosyası kısmı ya da adresi boş bırakılamaz.";
+$locale['419'] = "İndirme dosyası açıklaması boş bırakılamaz.";
+$locale['419a'] = "Bilinmeyen Hata";
 // Downloads form
-$locale['420'] = "Title:";
-$locale['421'] = "Description:";
-$locale['421b'] = "Short description:";
+$locale['420'] = "Başlık:";
+$locale['421'] = "Açıklama:";
+$locale['421b'] = "Kısa Açıklama:";
 $locale['422'] = "URL:";
-$locale['423'] = "Category:";
-$locale['424'] = "License:";
+$locale['423'] = "Kategori:";
+$locale['424'] = "Lisans:";
 $locale['425'] = "O/S:";
-$locale['426'] = "Version:";
-$locale['427'] = "Filesize:";
-$locale['428'] = "Save Download";
-$locale['429'] = "Update Publication Date";
-$locale['430'] = "File:";
-$locale['431'] = "Delete";
-$locale['432'] = "Calculate file size";
-$locale['433'] = "Max. filesize: %s / Allowed filetypes: %s";
-$locale['433b'] = "Max. filesize: %s / Allowed filetypes: %s / Max width: %spx, Max. height: %spx";
-$locale['434'] = "Screenshot:";
-$locale['435'] = "Homepage:";
-$locale['436'] = "Copyright:";
-$locale['437'] = "Comments:";
-$locale['438'] = "Ratings:";
-$locale['439'] = "Cancel";
+$locale['426'] = "Versiyon:";
+$locale['427'] = "Dosya Boyutu:";
+$locale['428'] = "Dosyayı Kaydet";
+$locale['429'] = "Yayımlanma Tarihini Güncelle";
+$locale['430'] = "Dosya:";
+$locale['431'] = "Sil";
+$locale['432'] = "Dosya Boyutunu Hesapla";
+$locale['433'] = "Maks. dosya boyutu: %s / İzin verilen dosya tipleri: %s";
+$locale['433b'] = "Maks. dosya boyutu: %s / İzin verilen dosya tipleri: %s / Maks genişlik: %spx, Maks. yükseklik: %spx";
+$locale['434'] = "Ekran Görüntüsü:";
+$locale['435'] = "Ana Sayfa:";
+$locale['436'] = "Lisans:";
+$locale['437'] = "Yorum:";
+$locale['438'] = "Oylama:";
+$locale['439'] = "İptal et";
 // Current Downloads
-$locale['440'] = "Download Item [Click to Test]";
-$locale['441'] = "Options";
-$locale['442'] = "Edit";
-$locale['443'] = "Delete";
+$locale['440'] = "Mecut Dosyalar";
+$locale['441'] = "Seçenekler";
+$locale['442'] = "Düzenle";
+$locale['443'] = "Sil";
 // No Downloads/Download Categories Defined
-$locale['450'] = "No Downloads have been addded to this Category";
-$locale['451'] = "There are no Download Categories defined";
-$locale['452'] = "You must define at least one category before you can add any Downloads";
-$locale['453'] = "Click here";
-$locale['454'] = " to go to Download Categories";
+$locale['450'] = "Bu kategoriye henüz dosya eklenmemiş";
+$locale['451'] = "Dosya kategorisi bulunamadı";
+$locale['452'] = "Dosya ekleyebilmek için en az bir adet dosya kategorisi olmalıdır";
+$locale['453'] = "Buraya Tıklayarak";
+$locale['454'] = " Dosya kategorisi bölümüne gidebilirsiniz";
 // Popup Error/Warning Messages
-$locale['460'] = "Delete this Download?";
-$locale['461'] = "%s are disabled for all items.<br />This setting will only take effect when they are enabled again.";
-$locale['462'] = "Comments";
-$locale['463'] = "Ratings";
-$locale['464'] = $locale['462']." and ".$locale['463'];
+$locale['460'] = "Dosya Silinsin Mi?";
+$locale['461'] = "%s tüm dosyalar için kapatılmıştır.<br />Ayarı açılana kadar bu durum devam edecektir.";
+$locale['462'] = "Yorumlar";
+$locale['463'] = "Oylama";
+$locale['464'] = $locale['462']." ve ".$locale['463'];
 ?>
