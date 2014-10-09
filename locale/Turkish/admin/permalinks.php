@@ -1,33 +1,40 @@
 <?php
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
 // Section Titles
-$locale['400'] = "Enabled Permalinks";
-$locale['401'] = "Disabled Permalinks";
+$locale['400'] = "Aktif edilen kalıcı bağlantılar (SEO Linkleri)";
+$locale['401'] = "Pasifleştirilen kalıcı bağlantılar (SEO Linkleri)";
 // Common
-$locale['402'] = "Rewrite Name";
-$locale['403'] = "Description";
-$locale['404'] = "Options";
-$locale['404a'] = "Enable";
-$locale['404b'] = "Disable";
-$locale['404c'] = "Edit";
+$locale['402'] = "Yeniden yazma adı";
+$locale['403'] = "Açıklaması";
+$locale['404'] = "Seçenekler";
+$locale['404a'] = "Aktif et";
+$locale['404b'] = "Pasifleştir";
+$locale['404c'] = "Düzenle";
 // Editing Permalinks
-$locale['405'] = "Editing Permalinks for %s";
-$locale['406'] = "Tags";
-$locale['407'] = "Description";
-$locale['408'] = "Types";
-$locale['409'] = "Edit Pattern";
-$locale['410'] = "Permalink type %u:";
-$locale['411'] = "Error";
-$locale['412'] = "Check the files of the Permalink %s!";
-$locale['413'] = "Save";
-$locale['414'] = "WARNING: Permalinks &amp; Custom Alias data will be permanently deleted!\\nAre you sure you want to Disable this Permalink?";
+$locale['405'] = "%s için kalıcı bağlantılar düzenleniyor";
+$locale['406'] = "Etiketler";
+$locale['407'] = "Açıklama";
+$locale['408'] = "Biçimler";
+$locale['409'] = "Pattern'i düzenle";
+$locale['410'] = "%u için kalıbı bağlantı türü:";
+$locale['411'] = "Hata";
+$locale['412'] = "%s için kalıcı bağlantı türünü kontrol edin!";
+$locale['413'] = "Kaydet";
+$locale['414'] = "UYARI: Kalıcı bğalantılar &amp; Özel önekler kalıcı olarak silinecek!\\nBu kalıcı bağlantıyı pasifleştirmek istediğinizden emin misiniz?";
 // Admin Messages
-$locale['420'] = "An Error occurred.";
-$locale['421'] = "Permalinks Updated successfully.";
-$locale['422'] = "No Permalink patterns found for %s.";
-$locale['423'] = "Permalink not found.";
-$locale['424'] = "Enabled Permalinks for %s successfully.";
-$locale['425'] = "Permalinks for %s are already enabled.";
-$locale['426'] = "Disabled Permalinks for %s successfully.";
+$locale['420'] = "Bir hata oluştu.";
+$locale['421'] = "Kalıcı bağlantılar başarı ile güncellendi.";
+$locale['422'] = "%s için kalıcı bağlantı patterni bulunamadı.";
+$locale['423'] = "Kalıcı bağlantı bulunamadı.";
+$locale['424'] = "%s için başarı ile kalıcı bağlantı oluşturuldu.";
+$locale['425'] = "%s için kalıcı bağlantılar zaten aktif.";
+$locale['426'] = "%s için kalıcı bağlantılar başarıyla pasifleştirildi.";
 // Other
-$locale['427'] = "No Permalinks are enabled.";
+$locale['427'] = "Henüz bir kalıcı bağlantı (seo linkeri) tanımlanmamış.";
 ?>
