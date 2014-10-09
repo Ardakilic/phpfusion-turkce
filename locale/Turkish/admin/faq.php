@@ -1,41 +1,48 @@
 <?php
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
 // FAQ Category titles
-$locale['400'] = "Add FAQ Category";
-$locale['401'] = "Edit FAQ Category";
+$locale['400'] = "S.S.S Kategorisi Ekle";
+$locale['401'] = "S.S.S Kategorisi Düzenle";
 // FAQ Category messages
-$locale['410'] = "FAQ Category added";
-$locale['411'] = "FAQ Category updated";
-$locale['412'] = "FAQ Category cannot be deleted";
-$locale['413'] = "There are FAQs linked to this category";
-$locale['414'] = "FAQ Category deleted";
+$locale['410'] = "S.S.S kategorisi eklendi";
+$locale['411'] = "S.S.S kategorisi düzenlendi";
+$locale['412'] = "S.S.S kategorisi silinemedi";
+$locale['413'] = "Mevut kategoride S.S.Sler bulunmakta";
+$locale['414'] = "S.S.S kategorisi silindi";
 // FAQ Category form
-$locale['420'] = "Category Name";
-$locale['421'] = "Category Description";
-$locale['422'] = "Save Category";
+$locale['420'] = "Kategori Adı";
+$locale['421'] = "Kategori Açıklaması";
+$locale['422'] = "Kategoriyi Kaydet";
 // FAQ titles
-$locale['500'] = "Add FAQ";
-$locale['501'] = "Edit FAQ";
-$locale['502'] = "Current FAQs";
+$locale['500'] = "S.S.S Ekle";
+$locale['501'] = "S.S.S Düzenle";
+$locale['502'] = "Mevcut S.S.Sler";
 // FAQ messages
-$locale['510'] = "FAQ added";
-$locale['511'] = "FAQ updated";
-$locale['512'] = "FAQ deleted";
+$locale['510'] = "S.S.S eklendi";
+$locale['511'] = "S.S.S güncellendi";
+$locale['512'] = "S.S.S silindi";
 // FAQ Form
-$locale['520'] = "Category";
-$locale['521'] = "Question";
-$locale['522'] = "Answer";
-$locale['523'] = "Save FAQ";
+$locale['520'] = "Kategori";
+$locale['521'] = "Soru";
+$locale['522'] = "Cevap";
+$locale['523'] = "S.S.Syi kaydet";
 // Current FAQs
-$locale['540'] = "Category / Question";
-$locale['541'] = "Options";
-$locale['542'] = "Edit";
-$locale['543'] = "Delete";
-$locale['544'] = "No FAQs have been added.";
-$locale['545'] = "No FAQ Categories defined.";
-$locale['546'] = "Delete this FAQ Category?";
-$locale['547'] = "Delete this FAQ?";
+$locale['540'] = "Kategori / Soru";
+$locale['541'] = "Seçenekler";
+$locale['542'] = "Düzenle";
+$locale['543'] = "Sil";
+$locale['544'] = "Hiç S.S.S eklenmemiş.";
+$locale['545'] = "Hiç S.S.S kategorisi oluşturulmamış.";
+$locale['546'] = "Bu S.S.S kategorisini silmek istediğinizden emin misiniz?";
+$locale['547'] = "Bu S.S.Syi silmek istediğinizden emin misiniz?";
 // Error Messages
-$locale['460'] = "Please enter a category name.";
-$locale['461'] = "This category already exists.";
-$locale['462'] = "Please enter a faq question and faq answer.";
+$locale['460'] = "Lütfen bir kategori ismi girin.";
+$locale['461'] = "Bu kategori ismi zaten mevcut.";
+$locale['462'] = "Lütfen bir S.S.S sorusu ve de cevabı girin.";
 ?>
