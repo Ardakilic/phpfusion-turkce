@@ -1,5 +1,12 @@
 <?php
-$locale['uf_location'] = "Location";
-$locale['uf_location_desc'] = "Country, city or town";
-$locale['uf_location_error'] = "Location can not be left empty.";
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
+$locale['uf_location'] = "Konum";
+$locale['uf_location_desc'] = "Ülke, şehir ya da kasaba-köy";
+$locale['uf_location_error'] = "Konum bilgisi boş bırakılamaz.";
 ?>

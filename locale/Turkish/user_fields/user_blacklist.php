@@ -1,15 +1,22 @@
 <?php
-$locale['uf_blacklist'] = "Blacklist";
-$locale['uf_blacklist_desc'] = "Privacy User Blacklisting";
-$locale['uf_blacklist_error'] = "Error in data type";
-$locale['uf_blacklist_message'] = "Once you block someone, that person can no longer see you including things you post and contact you.";
 
-$locale['uf_blacklist_000'] = "Blocked and Ignored Users";
-$locale['uf_blacklist_001'] = "Unblock";
-$locale['uf_blacklist_002'] = "Ignore";
-$locale['uf_blacklist_003'] = "There are no blacklisted user.";
-$locale['uf_blacklist_004'] = "User %s have been removed from your blacklist.";
-$locale['uf_blacklist_005'] = "The user was not blacklisted.";
-$locale['uf_blacklist_006'] = "No user found.";
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
+$locale['uf_blacklist'] = "Kara Liste";
+$locale['uf_blacklist_desc'] = "Üye güvenli Kara Listelemesi";
+$locale['uf_blacklist_error'] = "Veri tipinde hata var";
+$locale['uf_blacklist_message'] = "Eğer birini engellerseniz, bu kişi sizinlere artık iletişime geçemeyecek, sizin sitedeki içeriklerinizi göremeyecek ve size mesaj gönderemeyecek.";
+
+$locale['uf_blacklist_000'] = "Bloklanan ve yok sayılan kullanıcılar";
+$locale['uf_blacklist_001'] = "Bloğu kaldır";
+$locale['uf_blacklist_002'] = "Yok say";
+$locale['uf_blacklist_003'] = "Kara listede kullanıcı bulunamadı.";
+$locale['uf_blacklist_004'] = "%s kara listenizden kaldırıldı.";
+$locale['uf_blacklist_005'] = "Kullanıcı kara listeye eklenmedi.";
+$locale['uf_blacklist_006'] = "Kullanıcı bulunamadı.";
 
 ?>

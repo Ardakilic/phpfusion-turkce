@@ -1,7 +1,14 @@
 <?php
-$locale['uf_offset'] = "Offset";
-$locale['uf_offset_desc'] = "User defined offset.";
-$locale['uf_offset_error'] = "Offset was not set correctly.";
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
+$locale['uf_offset'] = "Saat Dilimi";
+$locale['uf_offset_desc'] = "Kullanıcı Saat Dilimi.";
+$locale['uf_offset_error'] = "Saat Dilimi doğru girilmedi.";
 
 $locale['offset_n1200'] = "(GMT -12:00) Eniwetok, Kwajalein";
 $locale['offset_n1100'] = "(GMT -11:00) Midway Island, Samoa";
