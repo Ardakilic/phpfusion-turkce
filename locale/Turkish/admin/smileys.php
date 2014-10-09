@@ -1,33 +1,40 @@
 <?php
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
 // Smiley titles
-$locale['401'] = "Add Smiley";
-$locale['402'] = "Edit Smiley";
-$locale['400'] = "Current Smileys";
+$locale['401'] = "Yüz İfadesi Ekle";
+$locale['402'] = "Yüz İfadesi Düzenle";
+$locale['400'] = "Mevcut Yüz İfadeleri";
 // Smiley messages
-$locale['410'] = "Smiley added";
-$locale['411'] = "Smiley updated";
-$locale['412'] = "Smiley deleted";
-$locale['413'] = "Unable to update smiley";
-$locale['414'] = "Unable to add smiley";
-$locale['415'] = "The smiley code is in use.";
-$locale['416'] = "Do you realy want to delete this smiley?";
+$locale['410'] = "Yüz ifadesi eklendi";
+$locale['411'] = "Yüz ifadesi güncellendi";
+$locale['412'] = "Yüz ifadesi silindi";
+$locale['413'] = "Yüz ifadesi güncellenemiyor";
+$locale['414'] = "Yüz ifadesi eklenemedi";
+$locale['415'] = "Yüz ifadesi kodu zaten kullanımda.";
+$locale['416'] = "Bu yüz ifadesini silmek istediğinizden emin misiniz?";
 // Smiley form
-$locale['420'] = "Smiley Code:";
-$locale['421'] = "Smiley Image:";
-$locale['422'] = "Smiley Text:";
-$locale['423'] = "Save Smiley";
-$locale['424'] = "Smiley Preview:";
+$locale['420'] = "Yüz İfadesi Kodu:";
+$locale['421'] = "Yüz İfadesi Resmi:";
+$locale['422'] = "Yüz İfadesi Metni:";
+$locale['423'] = "Yüz İfadesini Kaydet";
+$locale['424'] = "Yüz İfadesi Önizleme:";
 // Current Smileys
-$locale['430'] = "Code";
-$locale['431'] = "Image";
-$locale['432'] = "Text";
-$locale['433'] = "Options";
-$locale['434'] = "Edit";
-$locale['435'] = "Delete";
-$locale['436'] = "There are no smileys defined.";
+$locale['430'] = "Kod";
+$locale['431'] = "Resim";
+$locale['432'] = "Metin";
+$locale['433'] = "Seçenekler";
+$locale['434'] = "Düzenle";
+$locale['435'] = "Sil";
+$locale['436'] = "Mevcut Yüz İfadesi Bulunamadı.";
 // Error Message
-$locale['437'] = "Please enter a Smiley Code";
-$locale['438'] = "Please select a Smiley";
-$locale['439'] = "Please enter a Smiley Text";
+$locale['437'] = "Lütfen bir yüz ifadesi kodu girin";
+$locale['438'] = "Lütfen bir yüz ifadesi girin";
+$locale['439'] = "Lütfen bir yüz ifadesi metni girin";
 
 ?>
