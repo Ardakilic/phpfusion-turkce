@@ -1,41 +1,48 @@
 <?php
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
 // News titles
-$locale['400'] = "Add Site Link";
-$locale['401'] = "Edit Site Link";
-$locale['402'] = "Current Site Links";
+$locale['400'] = "Site Linki Ekle";
+$locale['401'] = "Site Linki Düzenle";
+$locale['402'] = "Mevcut Site Linkleri";
 // News messages
-$locale['410'] = "Site Link added";
-$locale['411'] = "Site Link updated";
-$locale['412'] = "Site Link deleted";
+$locale['410'] = "Site Linki eklendi";
+$locale['411'] = "Site Linki güncellendi";
+$locale['412'] = "Site Linki silindi";
 // Site Links form
-$locale['420'] = "Link Name:";
+$locale['420'] = "Link Adı:";
 $locale['421'] = "Link URL:";
-$locale['422'] = "Visibility:";
-$locale['423'] = "Order:";
-$locale['424'] = "Position:";
-$locale['425'] = "navigation panel only";
-$locale['426'] = "navigation panel and sub-header";
-$locale['427'] = "sub-header only";
-$locale['428'] = "Open link in new window";
-$locale['429'] = "Save Link";
+$locale['422'] = "Erişim Seviyesi:";
+$locale['423'] = "Sıra:";
+$locale['424'] = "Pozisyon:";
+$locale['425'] = "Sadece ana menüde göster";
+$locale['426'] = "Ana menü ve üye başlığında göster";
+$locale['427'] = "Sadece üye başlığında göster";
+$locale['428'] = "Link yeni pencerede açılsın";
+$locale['429'] = "Linki Kaydet";
 // Site Links list
-$locale['440'] = "Link Name";
-$locale['441'] = "Visibility";
-$locale['442'] = "Order";
-$locale['443'] = "Options";
-$locale['444'] = "Edit";
-$locale['445'] = "Delete";
-$locale['446'] = "No Site Links have been defined.";
+$locale['440'] = "Link Adı";
+$locale['441'] = "Erişim";
+$locale['442'] = "Sıra";
+$locale['443'] = "Seçenekler";
+$locale['444'] = "Düzenle";
+$locale['445'] = "Sil";
+$locale['446'] = "Kayıtlı site linki bulunamadı.";
 // Link Ordering
-$locale['450'] = "Up";
-$locale['451'] = "Down";
-$locale['452'] = "Move up";
-$locale['453'] = "Move down";
-$locale['454'] = "Refresh Link Ordering";
-$locale['455'] = "Link order updated.";
+$locale['450'] = "Yukarı";
+$locale['451'] = "Aşağı";
+$locale['452'] = "Yukarı taşı";
+$locale['453'] = "Aşağı taşı";
+$locale['454'] = "Link sıralamasını yenile";
+$locale['455'] = "Link sıralaması yenilendi.";
 // Delete Site Link category
-$locale['460'] = "Delete this site link?";
+$locale['460'] = "Bu Linki silmek istediðinizden emin misiniz?";
 // Error
-$locale['461'] = "Please enter a Link Name";
-$locale['462'] = "Please enter a Link URL";
+$locale['461'] = "Lütfen bir link adı girin";
+$locale['462'] = "Lütfen bir link URL'i girin";
 ?>
