@@ -1,40 +1,48 @@
 <?php
-$locale['email_create_subject'] = "Account created at ";
-$locale['email_create_message'] = "Hello [USER_NAME],\n
-Your account at ".$settings['sitename']." has been created.\n
-You can now login using the following details:\n
-username: [USER_NAME]\n
-password: [PASSWORD]\n\n
-Regards,\n
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
+$locale['email_create_subject'] = "Sitemizde üyeliğiniz oluşturuldu";
+$locale['email_create_message'] = "Merhaba [USER_NAME],\n
+Sitemiz olan ".$settings['sitename']." üzerindeki hesabınız oluşturuldu.\n
+Sitemize aşağıdaki kullanıcı bilgileri ile giriş yapabilirsiniz:\n
+kullanıcı adı: [USER_NAME]\n
+parola: [PASSWORD]\n\n
+Saygılarımızla,\n
 ".$settings['siteusername'];
-$locale['email_activate_subject'] = "Account activated at ";
-$locale['email_activate_message'] = "Hello [USER_NAME],\n
-Your account at ".$settings['sitename']." has been activated.\n
-You can now login using your chosen username and password.\n\n
-Regards,\n
+$locale['email_activate_subject'] = "Sitemizde üyeliğiniz aktif edildi ";
+$locale['email_activate_message'] = "Merhaba [USER_NAME],\n
+".$settings['sitename']." adlı sitemizde üyeliğiniz aktif edildi.\n
+Mevcut kullanıcı adınız ve şifrenizle sitemize yeniden giriş yapabilirsiniz.\n\n
+Saygılarımızla,\n
 ".$settings['siteusername'];
-$locale['email_deactivate_subject'] = "Account reactivation required at ".$settings['sitename'];
-$locale['email_deactivate_message'] = "Hello [USER_NAME],\n
-It has been ".$settings['deactivation_period']." day(s) since you last logged in at ".$settings['sitename'].". Your user has been marked as inactive but all your account details and content remains intact.\n
-To reactivate your account simply click the following link:\n
-".$settings['siteurl']."reactivate.php?user_id=[USER_ID]&code=[CODE]\n\n
-Regards,\n
+$locale['email_deactivate_subject'] = "Sitemizde hesabınızı yeniden aktifleştirmeniz gerekmekte ";
+$locale['email_deactivate_message'] = "Merhaba [USER_NAME],\n
+Sitemiz olan ".$settings['sitename']." adresine ".$settings['deactivation_period']." gündür girmediğinizi fark ettik.
+Hesabınızı yeniden aktifleştirmek için aşağıdaki linke tıklayabilirsiniz:\n
+".$settings['siteurl']."reactivate.php?user_id=[USER_ID]&code=[CODE]\n
+Unutmayın ki sadece üye durumunuz inaktif durumda. Tüm üye bilgileriniz ve sitemize girmiş olduğunuz tüm içerikler halen mevcut ve de aynı durumda bulunmakta.action=[RESPONSE]pass=[PASS]\n\n
+Saygılarımızla,\b
 ".$settings['siteusername'];
-$locale['email_ban_subject'] = "Your account on ".$settings['sitename']." has been banned";
-$locale['email_ban_message'] = "Hello [USER_NAME],\n
-Your account on ".$settings['sitename']." has been banned by ".$userdata['user_name']." because of the following reason:\n
+$locale['email_ban_subject'] = "Sitemizden banlandınız";
+$locale['email_ban_message'] = "Merhaba [USER_NAME],\n
+Sitemiz olan ".$settings['sitename']." üzerindeki hesabınız ".$userdata['user_name']." tarafından aşağıdaki sebepten dolayı banlandı:\n
 [REASON].\n
-If you want more information about this ban, please, contact the site administrator at ".$settings['siteemail'].".\n
+Eğer bu konu ile ilgili detaylı bilgiye ihtiyaç duyuyorsanız lütfen ".$settings['siteemail']." adresi üzerinden site yöneticileri ile irtibata geçin.\n
 ".$settings['siteusername'];
-$locale['email_secban_subject'] = "Your account on ".$settings['sitename']." has been banned";
-$locale['email_secban_message'] = "Hello [USER_NAME],\n
-Your account on ".$settings['sitename']." has been banned by ".$userdata['user_name']." because of some actions accredited to you or linked to your account were considered a security threat to the site.\n
-If you want more information about this security ban, please, contact the site administrator at ".$settings['siteemail'].".\n
+$locale['email_secban_subject'] = "Sitemizden banlandınız";
+$locale['email_secban_message'] = "Merhaba [USER_NAME],\n
+Sitemiz olan ".$settings['sitename']." üzerindeki hesabınız ".$userdata['user_name']." tarafından sizin ya da sizin hesabınız üzerinden yapılan sitemiz için güvenlik riski teşkil edecek bir davranıştan dolayı banlanmıştır.\n
+Eğer bu konu ile ilgili detaylı bilgiye ihtiyaç duyuyorsanız lütfen ".$settings['siteemail']." adresi üzerinden site yöneticileri ile irtibata geçin.\n
 ".$settings['siteusername'];
-$locale['email_suspend_subject'] = "Your account on ".$settings['sitename']." has been suspended";
-$locale['email_suspend_message'] = "Hello [USER_NAME],\n
-Your account on ".$settings['sitename']." has been suspended by ".$userdata['user_name']." until [DATE] (site time) because of the following reason:\n
+$locale['email_suspend_subject'] = "Sitemizdeki hesabınız askıya alındı";
+$locale['email_suspend_message'] = "Merhaba [USER_NAME],\n
+Sitemiz olan ".$settings['sitename']." üzerindeki hesabınız ".$userdata['user_name']." tarafından [DATE] tarihine kadar (site zamanı) aşağıdaki gerekçe ile askıya alınmıştır:\n
 [REASON].\n
-If you want more information about this suspension, please, contact the site administrator at ".$settings['siteemail'].".\n
+Eğer bu konu ile ilgili detaylı bilgiye ihtiyaç duyuyorsanız lütfen ".$settings['siteemail']." adresi üzerinden site yöneticileri ile irtibata geçin.\n
 ".$settings['siteusername'];
 ?>
