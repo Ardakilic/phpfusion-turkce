@@ -1,26 +1,33 @@
 <?php
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
 // Titles
-$locale['400'] = "Error Log";
-$locale['401'] = "Take a look into the file";
+$locale['400'] = "Hata Geçmişi";
+$locale['401'] = "Dosyaya bakın";
 // Errors table
-$locale['410'] = "Error";
-$locale['411'] = "On Page";
-$locale['412'] = "User";
-$locale['413'] = "Date";
-$locale['414'] = "Status";
-$locale['415'] = "Line:";
-$locale['416'] = "Level:";
+$locale['410'] = "Hata";
+$locale['411'] = "Şu sayfada";
+$locale['412'] = "Kullanıcı";
+$locale['413'] = "Tarih";
+$locale['414'] = "Durum";
+$locale['415'] = "Satır:";
+$locale['416'] = "Seviye:";
 $locale['417'] = "IP:";
-$locale['418'] = "No errors in the log.";
-$locale['419'] = "File";
-$locale['420'] = "Details";
-$locale['421'] = "Source code";
-$locale['422'] = "Back to top";
+$locale['418'] = "Hata geçmişinde hata bulunamadı.";
+$locale['419'] = "Dosya";
+$locale['420'] = "Açıklama";
+$locale['421'] = "Kaynak Kodu";
+$locale['422'] = "Yukarı Dön";
 // Delete form
-$locale['440'] = "Delete all entries with status";
+$locale['440'] = "Şu durumdaki tüm girdileri sil:";
 // Status form
-$locale['450'] = "New";
-$locale['451'] = "Solved";
-$locale['452'] = "Ignored";
-$locale['453'] = "Apply";
+$locale['450'] = "Yeni";
+$locale['451'] = "Çözüldü";
+$locale['452'] = "Yok sayıldı";
+$locale['453'] = "Uygula";
 ?>
