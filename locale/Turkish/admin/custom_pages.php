@@ -27,7 +27,7 @@ $locale['427'] = "Yorumlara İzin Ver";
 $locale['428'] = "Oy Kullanılmasına İzin Ver";
 $locale['429'] = "Sayfayı Önizle";
 $locale['430'] = "Sayfayı Kaydet";
-$locale['431'] = "Pagebreak";
+$locale['431'] = "Sayfa sonu";
 // Popup errors / warning messages
 $locale['450'] = "Bu Özel Sayfa Silinsin Mi?";
 $locale['451'] = "Lütfen sayfa başlığı belirtin";

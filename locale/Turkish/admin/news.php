@@ -1,44 +1,51 @@
 <?php
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
 // News titles
-$locale['400'] = "Current News";
-$locale['401'] = "Add News";
-$locale['402'] = "Edit News";
+$locale['400'] = "Mevcut Haberler";
+$locale['401'] = "Haber Ekle";
+$locale['402'] = "Haber Düzenle";
 // News messages
-$locale['410'] = "News Item added";
-$locale['411'] = "News Item updated";
-$locale['412'] = "News Item deleted";
-$locale['413'] = "Invalid image filename.";
-$locale['414'] = "Image must be less than %s.";
-$locale['415'] = "Image must be a GIF, JPEG or PNG file.";
-$locale['416'] = "Image must be no bigger than %uw x %uh pixels.";
+$locale['410'] = "Haber Eklendi";
+$locale['411'] = "Haber Güncellendi";
+$locale['412'] = "Haber Silindi";
+$locale['413'] = "Hatalı Resim Dosya Adı.";
+$locale['414'] = "Resim %s boyutundan daha küçük olmalıdır.";
+$locale['415'] = "Resim GIF, JPEG ya da PNG formatında olmalıdır.";
+$locale['416'] = "Resim %uw x %uh pikselden daha küçük olmalıdır.";
 // News form
-$locale['420'] = "Edit";
-$locale['421'] = "Delete";
-$locale['422'] = "Subject:";
-$locale['423'] = "Category:";
-$locale['424'] = "Uncategorized";
-$locale['425'] = "News:";
-$locale['426'] = "Extended News:";
-$locale['427'] = "Start Date:";
-$locale['428'] = "End Date:";
-$locale['429'] = "(Optional)";
-$locale['430'] = "Visibility:";
-$locale['431'] = "Save as draft";
-$locale['432'] = "Make this news item sticky";
-$locale['433'] = "Automatic Line-Breaks";
-$locale['434'] = "Enable Comments";
-$locale['435'] = "Enable Ratings";
-$locale['436'] = "Preview News";
-$locale['437'] = "Save News";
-$locale['438'] = "[DRAFT]";
-$locale['439'] = "News Image";
-$locale['440'] = "Max. filesize: %s / Allowed filetypes: GIF, JPEG or PNG.";
-$locale['441'] = "Pagebreak";
+$locale['420'] = "Düzenle";
+$locale['421'] = "Sil";
+$locale['422'] = "Başlık:";
+$locale['423'] = "Kategori:";
+$locale['424'] = "- Hiç Biri -";
+$locale['425'] = "Haber:";
+$locale['426'] = "Haberin Devamı:";
+$locale['427'] = "Başlama Tarihi:";
+$locale['428'] = "Bitiş Tarihi:";
+$locale['429'] = "(İsteğe Bağlı)";
+$locale['430'] = "Görünüm:";
+$locale['431'] = "Taslak olarak kaydet";
+$locale['432'] = "Haberi popüler yap";
+$locale['433'] = "Otomatik satır atlama";
+$locale['434'] = "Yorumlara izin ver";
+$locale['435'] = "Oy Kullanılmasına İzin Ver";
+$locale['436'] = "Haberi Önizle";
+$locale['437'] = "Haberi Kaydet";
+$locale['438'] = "[TASLAK]";
+$locale['439'] = "Haber Resmi";
+$locale['440'] = "Maks. dosya boyutu: %s / İzin Verilen Biçimler: GIF, JPEG ya da PNG.";
+$locale['441'] = "Sayfa sonu";
 // Popup Error/Warning Messages
-$locale['450'] = "Please specify a subject";
-$locale['451'] = "Delete this News?";
-$locale['452'] = "%s are disabled for all items.<br />This setting will only take effect when they are enabled again.";
-$locale['453'] = "Comments";
-$locale['454'] = "Ratings";
-$locale['455'] = $locale['453']." and ".$locale['454'];
+$locale['450'] = "Lütfen bir haber başlığı girin";
+$locale['451'] = "Haberi silmek istediğinizden emin misiniz?";
+$locale['452'] = "%s tüm haberler için kapatılmıştır.<br />Ayarı açılana kadar bu durum devam edecektir.";
+$locale['453'] = "Yorumlar";
+$locale['454'] = "Oylama";
+$locale['455'] = $locale['453']." ve ".$locale['454'];
 ?>
