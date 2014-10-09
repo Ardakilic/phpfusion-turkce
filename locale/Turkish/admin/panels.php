@@ -1,79 +1,86 @@
 <?php
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
 // Panel Management
-$locale['400'] = "Panels";
-$locale['401'] = "Panel Name";
-$locale['402'] = "Side";
-$locale['403'] = "Order";
-$locale['404'] = "Type";
-$locale['405'] = "Access";
-$locale['406'] = "Options";
+$locale['400'] = "Bloklar";
+$locale['401'] = "Blok İsmi";
+$locale['402'] = "Yön";
+$locale['403'] = "Sıra";
+$locale['404'] = "Tipi";
+$locale['405'] = "Erişim";
+$locale['406'] = "Seçenekler";
 // Panel Settings
-$locale['420'] = "Left";
-$locale['421'] = "Upper Center";
-$locale['422'] = "Right";
-$locale['423'] = "File";
+$locale['420'] = "Sol";
+$locale['421'] = "Üst Orta";
+$locale['422'] = "Sağ";
+$locale['423'] = "Dosya";
 $locale['424'] = "PHP";
-$locale['425'] = "Lower Center";
-$locale['426'] = "Below header";
-$locale['427'] = "Above footer";
+$locale['425'] = "Alt Orta";
+$locale['426'] = "Header kısmı altında";
+$locale['427'] = "Header kısmı üstünde";
 // Panel Options
-$locale['430'] = "Move to left";
-$locale['431'] = "Move to right";
-$locale['432'] = "Move up";
-$locale['433'] = "Move down";
-$locale['434'] = "Edit";
-$locale['435'] = "Enable";
-$locale['436'] = "Disable";
-$locale['437'] = "Delete";
-$locale['438'] = "New Panel";
-$locale['439'] = "Refresh Panel Order Values";
-$locale['440'] = "Delete this Panel?";
-$locale['441'] = "Left";
-$locale['442'] = "Right";
-$locale['443'] = "Up";
-$locale['444'] = "Down";
-$locale['445'] = "Move to upper";
-$locale['446'] = "Move to lower";
+$locale['430'] = "Sola Taşı";
+$locale['431'] = "Sağa Taşı";
+$locale['432'] = "Yukarı Taşı";
+$locale['433'] = "Aşağı Taşı";
+$locale['434'] = "Düzenle";
+$locale['435'] = "Aktif Et";
+$locale['436'] = "Pasifleştir";
+$locale['437'] = "Sil";
+$locale['438'] = "Yeni Blok";
+$locale['439'] = "Blok Değerlerini Yenile";
+$locale['440'] = "Bu Bloğu Silmek İstediğinizden Emin Misiniz?";
+$locale['441'] = "Sol";
+$locale['442'] = "Sağ";
+$locale['443'] = "Yukarı";
+$locale['444'] = "Aşağı";
+$locale['445'] = "Üstüne Taşı";
+$locale['446'] = "Altına Taşı";
 // Add/Edit Panel Form
-$locale['450'] = "Edit Panel";
-$locale['451'] = "Add Panel";
-$locale['452'] = "Panel Name:";
-$locale['453'] = "Panel Filename:";
-$locale['454'] = "Panel content will be ignored if selected";
-$locale['455'] = "Panel Content:";
-$locale['456'] = "Admin Password:";
-$locale['457'] = "Panel Side:";
-$locale['458'] = "Panel Access:";
-$locale['459'] = "Display panel on all pages";
-$locale['460'] = "Preview Panel";
-$locale['461'] = "Save Panel";
-$locale['462'] = "Panel Restriction:";
-$locale['463'] = "Examples:";
-$locale['464'] = "Exclude on these pages";
-$locale['465'] = "Include on these pages";
-$locale['466'] = "Panel Language:";
+$locale['450'] = "Bloğu Düzenle";
+$locale['451'] = "Blok Ekle";
+$locale['452'] = "Blok İsmi:";
+$locale['453'] = "Blok Dosya İsmi:";
+$locale['454'] = "Yeni blok eklerken - none - seçili ise, blok dosyası yerine içerik için yazdıklarınız geçerli olur";
+$locale['455'] = "Blok İçeriği:";
+$locale['456'] = "Yönetici Parolası:";
+$locale['457'] = "Blok Yönü:";
+$locale['458'] = "Blok Erişimi:";
+$locale['459'] = "Bloğu Tüm Sayfalarda Görüntüle";
+$locale['460'] = "Bloğu Önizle";
+$locale['461'] = "Bloğu Kaydet";
+$locale['462'] = "Blok Gösterim İzinleri:";
+$locale['463'] = "Örnekler:";
+$locale['464'] = "Şu sayfalarda gösterme";
+$locale['465'] = "Şu sayfalarda göster";
+$locale['466'] = "Blok Dili:";
 // Update/Add new Panel Errors
-$locale['470'] = "Panel name not defined";
-$locale['471'] = "Panel name in use";
-$locale['472'] = "Panel content not defined";
-$locale['473'] = "Panel filename not defined";
-$locale['474'] = "Admin password is incorrect";
-$locale['475'] = "You need to tick \"Display on all pages\" when restricting Upper Center or Lower Center panels";
+$locale['470'] = "Blok ismi tanımlanmamış";
+$locale['471'] = "Blok ismi kullanılıyor";
+$locale['472'] = "Blok içeriği tanımlanmamış";
+$locale['473'] = "Blok dosya ismi tanımlanmamış";
+$locale['474'] = "Hatalı Admin Parolası";
+$locale['475'] = "Üst orta ya da alt orta panellerde kısıtlama işlemini gerçekleştirmek için \"Tüm sayfalarda görüntüle\" seçeneğini seçmeniz gerekmekte";
 // Update/Add new Panel Success/Fail
-$locale['480'] = "Update Panel";
-$locale['481'] = "Could not update Panel";
-$locale['482'] = "Panel updated";
-$locale['483'] = "New Panel";
-$locale['484'] = "Could not add new Panel";
-$locale['485'] = "New Panel Added";
-$locale['486'] = "Return to Panel Management";
-$locale['487'] = "Return to Admin Index";
-$locale['488'] = "Panels order updated.";
+$locale['480'] = "Blok güncelleme";
+$locale['481'] = "Blok güncellenemiyor";
+$locale['482'] = "Blok güncellendi";
+$locale['483'] = "Yeni Blok ekle";
+$locale['484'] = "Yeni Blok eklenemiyor";
+$locale['485'] = "Yeni Blok eklendi";
+$locale['486'] = "Blok Yönetimine geri dön";
+$locale['487'] = "Site Yönetimine geri dön";
+$locale['488'] = "Blok Sıralaması güncellendi.";
 //Visual Panel
-$locale['600'] = "Panel Management Interface";
-$locale['602'] = "Unused panels";
-$locale['603'] = "Used panels";
-$locale['604'] = "Panels";
-$locale['605'] = "Panel";
-$locale['606'] = "Site content";
+$locale['600'] = "Blok yönetim arayüzü";
+$locale['602'] = "Kullanılmayan bloklar";
+$locale['603'] = "Kullanılan bloklar";
+$locale['604'] = "Bloklar";
+$locale['605'] = "Blok";
+$locale['606'] = "Site içeriği";
 ?>
