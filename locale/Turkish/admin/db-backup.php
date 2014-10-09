@@ -1,48 +1,55 @@
 <?php
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
 // Database Restore
-$locale['400'] = "Database Restore";
-$locale['401'] = "Error";
-$locale['402'] = "Invalid Backup File Format";
-$locale['403'] = "Close";
+$locale['400'] = "Veritabanı Geri Yükleme";
+$locale['401'] = "Hata";
+$locale['402'] = "Geçersiz Yedekleme Dosya Biçimi";
+$locale['403'] = "Kapat";
 // Backup File Information
-$locale['410'] = "Backup File Information";
-$locale['411'] = "Restore File Information";
-$locale['412'] = "Backup Filename:";
-$locale['413'] = "Backup Date:";
-$locale['414'] = "Database Name:";
-$locale['415'] = "Core Table Prefix:";
-$locale['416'] = "Tables:";
-$locale['417'] = "View";
-$locale['418'] = "Cancel";
-$locale['419'] = "tables";
+$locale['410'] = "Yedek dosyası bilgisi";
+$locale['411'] = "Geri yükleme dosyası bilgisi";
+$locale['412'] = "Yedek dosya ismi:";
+$locale['413'] = "Yedekleme Tarihi:";
+$locale['414'] = "Veritabanı ismi:";
+$locale['415'] = "Çekirdek Tablo Öneki:";
+$locale['416'] = "Tablolar:";
+$locale['417'] = "Göster";
+$locale['418'] = "Vazgeç";
+$locale['419'] = "tablolar";
 // Database Restore
-$locale['430'] = "Restore Options";
-$locale['431'] = "Filename:";
-$locale['432'] = "Date:";
-$locale['433'] = "Create Tables:";
-$locale['434'] = "Populate Tables:";
-$locale['435'] = "Select:";
-$locale['436'] = "all";
-$locale['437'] = "none";
-$locale['438'] = "Restore";
-$locale['439'] = "Cancel";
-$locale['440'] = "Supported File Types:";
+$locale['430'] = "Geri Yükleme Seçenekleri";
+$locale['431'] = "Dosya İsmi:";
+$locale['432'] = "Tarih:";
+$locale['433'] = "Oluşan Tablolar:";
+$locale['434'] = "Yerleşik Tablolar:";
+$locale['435'] = "Seç:";
+$locale['436'] = "hepsi";
+$locale['437'] = "hiç biri";
+$locale['438'] = "Geri yükle";
+$locale['439'] = "Vazgeç";
+$locale['440'] = "Desteklenen dosya tipleri:";
 // Database Backup
-$locale['450'] = "Database Backup";
-$locale['451'] = "Database Information";
-$locale['452'] = "Total Table Size:";
-$locale['453'] = "Core Table Size:";
-$locale['454'] = "Backup Options:";
-$locale['455'] = "Backup Type:";
-$locale['456'] = "(compressed)";
-$locale['457'] = "Database Tables";
-$locale['458'] = "core";
-$locale['459'] = "Backup";
-$locale['460'] = "Admin Password:";
-$locale['460b'] = "Please enter your Admin Password";
-$locale['461'] = "Required Information";
+$locale['450'] = "Veritabanı Yedek";
+$locale['451'] = "Veritabanı Bilgisi";
+$locale['452'] = "Toplam Tablo Boyutu:";
+$locale['453'] = "Çekirdek Tablo Boyutu:";
+$locale['454'] = "Yedekleme Seçenekleri:";
+$locale['455'] = "Yedekleme Tipi:";
+$locale['456'] = "(sıkıştırılmış)";
+$locale['457'] = "Veritabanı Tabloları";
+$locale['458'] = "çekirdek";
+$locale['459'] = "Yedek";
+$locale['460'] = "Kullanıcı Şifresi:";
+$locale['460b'] = "Lütfen yönetici parolanızı girin";
+$locale['461'] = "Zorunlu Alanlar";
 // Backup List
-$locale['480'] = "Restore Backup";
-$locale['481'] = "Filename:";
-$locale['481b'] = "Please enter a Filename";
+$locale['480'] = "Geri yüklenen yedeklemeler";
+$locale['481'] = "Dosya Adı:";
+$locale['481b'] = "Lütfen bir dosya adı girin";
 ?>
