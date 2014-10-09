@@ -1,47 +1,54 @@
 <?php
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
 // Album titles
-$locale['400'] = "Add Album";
-$locale['401'] = "Edit Album";
-$locale['402'] = "Current Albums";
-$locale['403'] = "Serious Photoalbum Error";
+$locale['400'] = "Albüm Ekle";
+$locale['401'] = "Albüm Düzenle";
+$locale['402'] = "Mevcut Albümler";
+$locale['403'] = "Ciddi Resim Albümü Hatası";
 // Album messages
-$locale['409'] = "Please enter an Album Name";
-$locale['410'] = "Album added";
-$locale['411'] = "Album updated";
-$locale['412'] = "Album thumbnail deleted";
-$locale['413'] = "Album deleted";
-$locale['414'] = "The following error has occured:";
-$locale['415'] = "Invalid image filename.";
-$locale['416'] = "Image must be less than %s.";
-$locale['417'] = "Image must be a GIF, JPEG or PNG file.";
-$locale['418'] = "Image must be no bigger than %uw x %uh pixels.";
-$locale['419'] = "Album cannot be deleted. Your password is incorrect.";
-$locale['420'] = "No GD library detected. Photoalbums will not work without GD library. Contact your host provider for further information.";
+$locale['409'] = "Lütfen bir resim albümü ismi girin";
+$locale['410'] = "Albüm eklendi";
+$locale['411'] = "Albüm güncellendi";
+$locale['412'] = "Albüm Küçük Resmi silindi";
+$locale['413'] = "Albüm silindi";
+$locale['414'] = "Bir hata oluştu:";
+$locale['415'] = "Hatalı resim dosya adı.";
+$locale['416'] = "Resim %s dan küçük olmalısır.";
+$locale['417'] = "Resim GIF, JPEG ya da PNG biçiminde olmalıdır.";
+$locale['418'] = "Resim %uw x %uh pikselden büyük olmamalıdır.";
+$locale['419'] = "Albüm silinemedi. Parolanız hatalı.";
+$locale['420'] = "GD kütüphanesi bulunamadı. Resim albümleri GD kütüphanesi olmadan çalışamaz. Detaylı bilgi için hosting sağlayıcınız ile görüşün.";
 // Album confirmation
-$locale['430'] = "Delete album confirmation";
-$locale['431'] = "The Album you are trying delete contains one or more photos.<br />\n"."In order to delete this album, please enter your admin password:";
-$locale['432'] = "Confirm";
-$locale['433'] = "Cancel";
+$locale['430'] = "Albüm Silme Doğrulaması";
+$locale['431'] = "Silmeye çalıştığınız albüm bir ya da daha fazla foto barındırıyor.<br />\n"."Bu albümü silmek istiyorsanız lütfen yönetici parolanızı girin:";
+$locale['432'] = "Doğrula";
+$locale['433'] = "Vazgeç";
 // Album form
-$locale['440'] = "Title: ";
-$locale['441'] = "Description: ";
-$locale['442'] = "Access: ";
-$locale['443'] = "Order: ";
-$locale['444'] = "Thumb: ";
-$locale['445'] = "Save Album";
+$locale['440'] = "Başlık: ";
+$locale['441'] = "Açıklama: ";
+$locale['442'] = "Erişim: ";
+$locale['443'] = "Sıralama: ";
+$locale['444'] = "Küçük Resim: ";
+$locale['445'] = "Albümü Kaydet";
 // Current Albums
-$locale['460'] = "Open Album";
-$locale['461'] = "No thumbnail";
-$locale['462'] = "Date: ";
-$locale['463'] = "Created by: ";
-$locale['464'] = "Access: ";
-$locale['465'] = "Photos: ";
-$locale['466'] = "Move up";
-$locale['467'] = "Move down";
-$locale['468'] = "Edit";
-$locale['469'] = "Delete";
-$locale['470'] = "Refresh Album and Photo Ordering";
-$locale['471'] = "No Photo Albums defined.";
+$locale['460'] = "Albüm Aç";
+$locale['461'] = "Küçük Resim yok";
+$locale['462'] = "Tarih: ";
+$locale['463'] = "Oluşturan: ";
+$locale['464'] = "Erişim: ";
+$locale['465'] = "Resim Sayısı: ";
+$locale['466'] = "Yukarı Taşı";
+$locale['467'] = "Aşağı Taşı";
+$locale['468'] = "Düzenle";
+$locale['469'] = "Sil";
+$locale['470'] = "Albüm ve Resim Sıralamasını Yenile";
+$locale['471'] = "Resim Albümü bulunamadı.";
 // Delete Album
-$locale['500'] = "Delete this Album?";
+$locale['500'] = "Bu Resim Albümünü silmek istediğinizden emin misiniz?";
 ?>
