@@ -1,117 +1,124 @@
 <?php
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
 // Delete Submission
-$locale['400'] = "Delete submission";
-$locale['401'] = "The submission has been deleted";
-$locale['402'] = "Return to Submissions Menu";
-$locale['403'] = "Return to Admin Home";
+$locale['400'] = "Öneriyi Sil";
+$locale['401'] = "Öneri Silindi";
+$locale['402'] = "Öneriler Menüsüne Geri Dön";
+$locale['403'] = "Site Yönetimine Geri Dön";
 // Submission Options
-$locale['410'] = "Submissions";
-$locale['411'] = "Submitted Links:";
-$locale['412'] = "Submitted News:";
-$locale['413'] = "Submitted Articles:";
-$locale['414'] = "No links awaiting verification.";
-$locale['415'] = "No news awaiting verification.";
-$locale['416'] = "No articles awaiting verification.";
-$locale['417'] = "View";
-$locale['418'] = "Delete";
-$locale['419'] = "Submitted Photos:";
-$locale['420'] = "No Photos awaiting verification.";
-$locale['421'] = "Submitted Downloads:";
-$locale['422'] = "No Downloads awaiting verification.";
+$locale['410'] = "Öneriler";
+$locale['411'] = "Önerilen Linkler:";
+$locale['412'] = "Önerilen Haberler:";
+$locale['413'] = "Önerilen Makaleler:";
+$locale['414'] = "Önerilmiş Yeni Link Yok.";
+$locale['415'] = "Önerilmiş Yeni Haber Yok.";
+$locale['416'] = "Önerilmiş Yeni Makale Yok.";
+$locale['417'] = "Görünüm";
+$locale['418'] = "Sil";
+$locale['419'] = "Önerilen Resimler:";
+$locale['420'] = "Önerilmiş Yeni Resim Yok.";
+$locale['421'] = "Önerilmiş İndirmeler:";
+$locale['422'] = "Önerilmiş Yeni İndirme Yok.";
 // Add/Delete Web Link Submissions
-$locale['430'] = "Publish link submission";
-$locale['431'] = "The link has been published";
-$locale['432'] = "Delete link submission";
-$locale['433'] = "The link has been deleted";
-$locale['434'] = "No categories";
+$locale['430'] = "Önerilen Linki Yayımla";
+$locale['431'] = "Link Yayımlandı";
+$locale['432'] = "Önerilen Linki Sil";
+$locale['433'] = "Önerilen Link Silindi";
+$locale['434'] = "Kategori Yok";
 // Web Link Submission Form
-$locale['440'] = "View submission";
-$locale['441'] = "The following link was submitted by ";
-$locale['442'] = " on ";
-$locale['443'] = "Link category:";
-$locale['444'] = "Link name:";
+$locale['440'] = "Öneriyi Görüntüle";
+$locale['441'] = "Bu Linki Ekleyen Üyemiz ";
+$locale['442'] = " - ";
+$locale['443'] = "Link kategorisi:";
+$locale['444'] = "Link adı:";
 $locale['445'] = "Link URL:";
-$locale['446'] = "Link description:";
-$locale['447'] = "Do you want to publish or delete this link?";
-$locale['448'] = "Publish link";
-$locale['449'] = "Delete link";
+$locale['446'] = "Link açıklaması:";
+$locale['447'] = "Bu Linki Yayımlamak ya da Silmek istediğinizden emin misiniz?";
+$locale['448'] = "Linki Yayımla";
+$locale['449'] = "Linki Sil";
 // Add/Delete News Submissions
-$locale['490'] = "Publish News Submission";
-$locale['491'] = "The News has been published";
-$locale['492'] = "Delete News Submission";
-$locale['493'] = "The News has been deleted";
+$locale['490'] = "Önerilen Haberi Yayımla";
+$locale['491'] = "Haber Yayımlandı";
+$locale['492'] = "Önerilen Haberi Sil";
+$locale['493'] = "Önerilen Haber Silindi";
 // News Submission Form
-$locale['500'] = "View News Submission";
-$locale['501'] = "The above news item was submitted by ";
-$locale['502'] = "Do you want to publish or delete this news item?";
-$locale['503'] = "Publish news";
-$locale['504'] = "Delete news";
-$locale['505'] = "Subject:";
-$locale['506'] = "Category:";
-$locale['507'] = "- None -";
-$locale['508'] = "News:";
-$locale['509'] = "News Snippet:";
-$locale['510'] = "Preview News";
+$locale['500'] = "Haber Önerisini Görüntüle";
+$locale['501'] = "Yukarıdaki Haberi Ekleyen Üyemiz: ";
+$locale['502'] = "Bu Haberi Yayımlamak ya da Silmek istediğinizden emin misiniz?";
+$locale['503'] = "Haberi Yayımla";
+$locale['504'] = "Haberi Sil";
+$locale['505'] = "Konu:";
+$locale['506'] = "Kategori:";
+$locale['507'] = "- Hiç biri -";
+$locale['508'] = "Haberler:";
+$locale['509'] = "Haber Kısa Metni:";
+$locale['510'] = "Haberi Önizle";
 // Add/Delete Article Submissions
-$locale['530'] = "Publish Article Submission";
-$locale['531'] = "The Article has been published";
-$locale['532'] = "Delete Article Submission";
-$locale['533'] = "The Article has been deleted";
+$locale['530'] = "Önerilen Makaleyi Yayımla";
+$locale['531'] = "Makale Yayımlandı";
+$locale['532'] = "Önerilen Makaleyi Sil";
+$locale['533'] = "Önerilen Makale Silindi";
 // Article Submission Form
-$locale['540'] = "View Article Submission";
-$locale['541'] = "The above article was submitted by ";
-$locale['542'] = "Do you want to publish or delete this article?";
-$locale['543'] = "Publish article";
-$locale['544'] = "Delete article";
-$locale['545'] = "Category:";
-$locale['546'] = "Subject:";
-$locale['547'] = "Snippet:";
-$locale['548'] = "Article:";
-$locale['549'] = "Preview article";
+$locale['540'] = "Makale Önerisini Görüntüle";
+$locale['541'] = "Yukarıdaki Makaleyi Ekleyen Üyemiz: ";
+$locale['542'] = "Bu Makaleyi Yayımlamak ya da Silmek istediğinizden emin misiniz?";
+$locale['543'] = "Makaleyi Yayımla";
+$locale['544'] = "Makaleyi Sil";
+$locale['545'] = "Kategori:";
+$locale['546'] = "Konu:";
+$locale['547'] = "Bilgi:";
+$locale['548'] = "Makale:";
+$locale['549'] = "Makaleyi Önizle";
 // Add/Delete Photo Submissions
-$locale['580'] = "Publish Photo Submission";
-$locale['581'] = "The photo has been published";
-$locale['582'] = "Delete Photo Submission";
-$locale['583'] = "The photo has been deleted";
+$locale['580'] = "Resim Önerisini Yayımlama";
+$locale['581'] = "Resim önerisi yayımlanmıştır.";
+$locale['582'] = "Resim Önerisini Sil";
+$locale['583'] = "Resim önerisi silinmiştir.";
 // Photo Submission Form
-$locale['590'] = "View Photo Submission";
-$locale['591'] = "Click here to view the photo";
-$locale['592'] = "The above photo was submitted by ";
-$locale['593'] = "Do you want to publish or delete this photo?";
-$locale['594'] = "Publish Photo";
-$locale['595'] = "Delete Photo";
-$locale['596'] = "Title:";
-$locale['597'] = "Description:";
-$locale['598'] = "Album";
+$locale['590'] = "Resim Önerilerini Görüntüle";
+$locale['591'] = "Görmek istediğiniz resmin üzerine tıklayınız";
+$locale['592'] = "Üstteki resmi ekleyen ";
+$locale['593'] = "Bu resmi yayımlamak ya da silmek isiyor musunuz?";
+$locale['594'] = "Resmi Yayımla";
+$locale['595'] = "Resim Sil";
+$locale['596'] = "Başlık:";
+$locale['597'] = "Açıklama:";
+$locale['598'] = "Albüm";
 // Add/Delete Download Submissions
-$locale['630'] = "Publish Download Submission";
-$locale['631'] = "The Download has been published";
-$locale['632'] = "Delete Download Submission";
-$locale['633'] = "The Download has been deleted";
+$locale['630'] = "İndirme önerisini yayımla";
+$locale['631'] = "İndirme yayımlandı";
+$locale['632'] = "İndirme önerisini sil";
+$locale['633'] = "İndirme silindi";
 // Download Submission Form
-$locale['640'] = "View Download Submission";
-$locale['641'] = "This Download was submitted by ";
-$locale['642'] = "Do you want to publish or delete this download?";
-$locale['643'] = "Publish Download";
-$locale['644'] = "Delete Download";
-$locale['645'] = "Title:";
-$locale['646'] = "Description:";
-$locale['646b'] = "Short description:";
-$locale['647'] = "URL:";
-$locale['647b'] = "File:";
-$locale['648'] = "Category:";
-$locale['649'] = "License:";
-$locale['650'] = "O/S:";
-$locale['651'] = "Version:";
-$locale['652'] = "Filesize:";
-$locale['653'] = "Screenshot:";
-$locale['654'] = "Homepage:";
+$locale['640'] = "İndirme önerisini görüntüle";
+$locale['641'] = "Bu indirme şu kişi tarafından önerildi: ";
+$locale['642'] = "Bu indirmeyi yayımlamak ya da silmek ister misiniz?";
+$locale['643'] = "İndirmeyi Yayımla";
+$locale['644'] = "İndirmeyi Sil";
+$locale['645'] = "Başlık:";
+$locale['646'] = "Açıklama:";
+$locale['646b'] = "Kısa Açıklama:";
+$locale['647'] = "Link:";
+$locale['647b'] = "Dosya:";
+$locale['648'] = "Kategori:";
+$locale['649'] = "Lisans:";
+$locale['650'] = "İşletim Sistemi:";
+$locale['651'] = "Versiyon:";
+$locale['652'] = "Dosya Boyutu:";
+$locale['653'] = "Ekran Görüntüsü:";
+$locale['654'] = "Ana Sayfa:";
 $locale['655'] = "Copyright:";
-$locale['656'] = "Comments:";
-$locale['657'] = "Ratings:";
-$locale['658'] = "Delete Screenshot";
-$locale['660'] = "%s are disabled for all items.<br />This setting will only take effect when they are enabled again.";
-$locale['661'] = "Comments";
-$locale['662'] = "Ratings";
-$locale['663'] = $locale['661']." and ".$locale['662'];
+$locale['656'] = "Yorum:";
+$locale['657'] = "Oylama:";
+$locale['658'] = "Ekran Görüntüsünü Sil";
+$locale['660'] = "%s tümü için iptal edilmiştir.<br />Bu ayar o aktifleştirildiği zaman işlevli olacaktır.";
+$locale['661'] = "Yorumlar";
+$locale['662'] = "Oylama";
+$locale['663'] = $locale['661']." ve ".$locale['662'];
 ?>

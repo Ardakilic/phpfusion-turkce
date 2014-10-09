@@ -1,46 +1,53 @@
 <?php
-$locale['400'] = "Upgrade";
-// No upgrade
-$locale['401'] = "There is no database upgrade available.";
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
+$locale['400'] = "Sürüm Yükseltme";
+//No upgrade
+$locale['401'] = "Sürüm Yükseltmek İçin Veritabanı Güncellemesi Bulunamadı.";
 // Stage 6 - User Field Categories
-$locale['420'] = "Contact Information";
-$locale['421'] = "Miscellaneous Information";
-$locale['422'] = "Options";
-$locale['423'] = "Statistics";
-$locale['430'] = "User Field Categories";
-$locale['432'] = "User Management";
-$locale['434'] = "Items per Page";
-$locale['435'] = "Security";
-$locale['436'] = "News Settings";
-$locale['437'] = "Downloads Settings";
+$locale['420'] = "İletişim Bilgisi";
+$locale['421'] = "Çeşitli Bilgiler";
+$locale['422'] = "Seçenekler";
+$locale['423'] = "İstatistikler";
+$locale['430'] = "Kullanıcı Alanı Kategorileri";
+$locale['432'] = "Kullanıcı Yönetimi";
+$locale['434'] = "Sayfa Başına Düşen İçerik";
+$locale['435'] = "Güvenlik";
+$locale['436'] = "Haber Ayarları";
+$locale['437'] = "Download Ayarları";
 // v7.02 new locales
-$locale['440'] = "Submit Download";
-$locale['441'] = "Shoutbox";
+$locale['440'] = "İndirme Öner";
+$locale['441'] = "Kısa Mesajlar";
 $locale['442'] = "robots.txt";
-$locale['443'] = "User Log";
-$locale['444'] = "Admin Password Reset";
-$locale['445'] = "Error Log";
+$locale['443'] = "Üye Log Günlüğü";
+$locale['444'] = "Admin Parolası Sıfırlama";
+$locale['445'] = "Hata Günlüğü";
 // Upgrade locales
-$locale['500'] = "A %s database upgrade is available for this installation of PHP-Fusion.";
-$locale['501'] = "Simply click Upgrade to update your system.";
-$locale['502'] = "Database upgrade complete.";
-$locale['503'] = "major";
-$locale['504'] = "minor";
-$locale['505'] = "Please replace these lines with the lines in your config.php!";
+$locale['500'] = "Ufak bir veritabanı güncellemesi bulundu.";
+$locale['501'] = "Güncelle tuşuna basarak bu güncellemeyi gerçekleştirebilirsiniz.";
+$locale['502'] = "Veritabanı güncellemesi tamamlandı.";
+$locale['503'] = "Yüksek öncelikli";
+$locale['504'] = "Düşük öncelikli";
+$locale['505'] = "Lütfen bu satırları config.php nizdeki değerlerle değiştirin!";
 // Cookie Prefix
-$locale['600'] = "Please edit your config.php, and replace it's content with the following code:";
+$locale['600'] = "Lütfen config.php nizi düzenleyip içeriğini bununla değiştirin:";
 // Email Template Setup
 // Please do NOT translate the words between brackets [] !
-$locale['T001'] = "Email Templates";
-$locale['T101'] = "Notification on new PM";
-$locale['T102'] = "You have a new private message from [USER] waiting at [SITENAME]";
-$locale['T103'] = "Hello [RECEIVER],\r\nYou have received a new Private Message titled [SUBJECT] from [USER] at [SITENAME]. You can read your private message at [SITEURL]messages.php\r\n\r\nMessage: [MESSAGE]\r\n\r\nYou can disable email notification through the options panel of the Private Message page if you no longer wish to be notified of new messages.\r\n\r\nRegards,\r\n[SENDER].";
-$locale['T201'] = "Notification on new forum posts";
-$locale['T202'] = "Thread Reply Notification - [SUBJECT]";
-$locale['T203'] = "Hello [RECEIVER],\r\n\r\nA reply has been posted in the forum thread \'[SUBJECT]\' which you are tracking at [SITENAME]. You can use the following link to view the reply:\r\n\r\n[THREAD_URL]\r\n\r\nIf you no longer wish to watch this thread you can click the \'Stop tracking this thread\' link located at the top of the thread.\r\n\r\nRegards,\r\n[SENDER].";
-$locale['T301'] = "Contact form";
+$locale['T001'] = "E-Posta Taslağı";
+$locale['T101'] = "Yeni ÖMde bilgilendirme";
+$locale['T102'] = "Yeni bir mesajınız var. [USER] tarafından gönderilen mesajı sitemiz olan [SITENAME] e giriş yapıp okuyabilirsiniz.";
+$locale['T103'] = "Merhaba [RECEIVER],\r\nSitemiz [SITENAME] üyelerinden [USER] size [SUBJECT] başlıklı yeni bir özel mesaj gönderdi. Özel mesajlarınızı görüntülemek için [SITEURL]messages.php adresine tıklayın\r\n\r\nMesaj: [MESSAGE]\r\n\r\nE-posta bildirimini özel mesaj sayfasındaki bildirim ayarlarından kapatabilirsiniz.\r\n\r\nSaygılarımızla,\r\n[SENDER].";
+$locale['T201'] = "Yeni forum mesajları bilgilendirmesi";
+$locale['T202'] = "Forum başlığına yeni mesaj gönderildi - [SUBJECT]";
+$locale['T203'] = "Merhaba [RECEIVER],\r\n\r\nTakip ettiğiniz \'[SUBJECT]\' isimli başlığa sitemiz [SITENAME] üyelerinden bir cevap geldi. Aşağıdaki linki takip ederek mesaja erişebilirsiniz:\r\n\r\n[THREAD_URL]\r\n\r\nEğer bu başlıktan daha fazla bildirim almak istemiyorsanız başlığın seçeneklerinden \'Bu başlığı takip etmeyi durdur\' linkine tıklamalısınız.\r\n\r\nSaygılarımızla,\r\n[SENDER].";
+$locale['T301'] = "İletişim Formu";
 $locale['T302'] = "[SUBJECT]";
 $locale['T303'] = "[MESSAGE]";
-$locale['UF'] = "Privacy";
-$locale['SEO'] = "Permalinks";
+$locale['UF'] = "Gizlilik";
+$locale['SEO'] = "Kalıcı bağlantılar";
 ?>

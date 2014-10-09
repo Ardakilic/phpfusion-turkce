@@ -1,44 +1,51 @@
 <?php
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
 // User Fields Categories titles
-$locale['400'] = "Add User Fields Category";
-$locale['401'] = "Edit User Fields Category";
-$locale['402'] = "Current User Fields Categories";
+$locale['400'] = "Yeni Bir Kullanıcı Alanı Kategorisi Ekle";
+$locale['401'] = "Kullanıcı Alanı Kategorisini Düzenle";
+$locale['402'] = "Mevcut Kullanıcı Alanı Kategorileri";
 // User Fields Categories messages
-$locale['410'] = "User Fields Category added";
-$locale['411'] = "User Fields Category updated";
-$locale['412'] = "User Fields Category deleted";
-$locale['413'] = "User Fields Category cannot be deleted";
-$locale['414'] = "There are User Fields linked to this category";
+$locale['410'] = "Kullancı alanı kategorisi eklendi";
+$locale['411'] = "Kullanıcı alanı kategorisi güncellendi";
+$locale['412'] = "Kullanıcı alanı kategorisi silindi";
+$locale['413'] = "Kullanıcı alanı kategorisi silinemiyor";
+$locale['414'] = "Bu kategori ile ilişkilendirilmiş kullanıcı alanları bulunmakta";
 // User Fields Categories form
-$locale['420'] = "Category Name";
-$locale['421'] = "Category Order";
-$locale['422'] = "Save Category";
-$locale['423'] = "Category DB Name";
-$locale['424'] = "Database Table Name";
-$locale['425'] = "Icon Class";
-$locale['426'] = "As New Page?";
-$locale['427'] = "Yes, create as new page.";
-$locale['428'] = "Primary Index";
-$locale['429a'] = "3rd Party Database Name (optional)";
-$locale['429b'] = "Primary Column Name containing User ID (need if Category DB)";
+$locale['420'] = "Kategori Adı";
+$locale['421'] = "Kategori Sıralaması";
+$locale['422'] = "Kategoriyi Kaydet";
+$locale['423'] = "Kategori Veritabanı Adı";
+$locale['424'] = "Veritabanı tablo adı";
+$locale['425'] = "İkon sınıfı (class)";
+$locale['426'] = "Yeni bir sayfa olarak mı?";
+$locale['427'] = "Evet, yeni bir sayfa olarak.";
+$locale['428'] = "Öncelikli indeks (veritabanı'ndaki primary index)";
+$locale['429a'] = "3. Parti veritabanı adı (opsiyonel)";
+$locale['429b'] = "Kullanıcı ID barındıran öncelikli sütun (primary column) adı (Eğer kategori için veritabanı kullanılmışsa gereklidir)";
 
 // User Fields Categories list
-$locale['430'] = "Order";
-$locale['431'] = "Options";
-$locale['432'] = "Edit";
-$locale['433'] = "Delete";
-$locale['434'] = "No User Fields Categories have been defined.";
-$locale['435'] = "Page";
-$locale['436'] = "User Info Page";
+$locale['430'] = "Sıra";
+$locale['431'] = "Seçenekler";
+$locale['432'] = "Düzenle";
+$locale['433'] = "Sil";
+$locale['434'] = "Kullanıcı alanı kategorisi tanımlanmamış.";
+$locale['435'] = "Sayfa";
+$locale['436'] = "Kullanıcı bilgisi sayfası";
 // User Fields Categories Ordering
-$locale['440'] = "Up";
-$locale['441'] = "Down";
-$locale['442'] = "Move up";
-$locale['443'] = "Move down";
-$locale['444'] = "Refresh User Fields Categories Ordering";
+$locale['440'] = "Yukarı";
+$locale['441'] = "Aşağı";
+$locale['442'] = "Yukarı taşı";
+$locale['443'] = "Aşağı taşı";
+$locale['444'] = "Kullanıcı alanı kategori sıralamasını yenile";
 // Delete User Fields category
-$locale['450'] = "Delete this User Fields Category?";
+$locale['450'] = "Bu kullanıcı alanı kategorisi silinsin mi?";
 // Error message
-$locale['450a'] = 'Please enter a category anme.';
-$locale['450b'] = 'If you use another database other than the default users table, please fill in both the Database table name and its UserId Column.';
+$locale['450a'] = 'Lütfen bir kategori adı girin.';
+$locale['450b'] = 'Eğer standart users tablosu dışında başka bir tablo kullanıyorsanız lütfen veritabanı tablo adını ve içindeki userID (kullanıcı id)&#39;yi barındıran sütunun adını girin.';
 ?>

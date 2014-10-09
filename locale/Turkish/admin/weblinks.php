@@ -1,60 +1,67 @@
 <?php
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
 // Web Link Category titles
-$locale['400'] = "Add Web Link Category";
-$locale['401'] = "Edit Web Link Category";
-$locale['402'] = "Current Web Link Categories";
+$locale['400'] = "Web Linkleri Kategorisi Ekle";
+$locale['401'] = "Web Linkleri Kategorisi Düzenle";
+$locale['402'] = "Mevcut Web Linkleri Kategorileri";
 // Web Link Category messages
-$locale['410'] = "Web Link Category added";
-$locale['411'] = "Web Link Category updated";
-$locale['412'] = "Web Link Category cannot be deleted";
-$locale['413'] = "There are Web Links linked to this category";
-$locale['414'] = "Web Link Category deleted";
+$locale['410'] = "Web Linkleri Kategorisi eklendi";
+$locale['411'] = "Web Linkleri Kategorisi güncellendi";
+$locale['412'] = "Web Linkleri Kategorisi silinemiyor";
+$locale['413'] = "Mevcut kategoride halihazırda web linkleri bulunmakta";
+$locale['414'] = "Web Linkleri Kategorisi silindi";
 // Add/Edit Web Link Category Form
-$locale['420'] = "Category Name:";
-$locale['421'] = "Category Description:";
-$locale['422'] = "Category Sorting:";
-$locale['423'] = "Weblink ID";
-$locale['424'] = "Weblink Name";
-$locale['425'] = "Weblink Date";
-$locale['426'] = "Ascending";
-$locale['427'] = "Descending";
-$locale['428'] = "Category Access:";
-$locale['429'] = "Save Category";
+$locale['420'] = "Kategori Adı:";
+$locale['421'] = "Kategori Açıklaması:";
+$locale['422'] = "Kategori Sıralaması:";
+$locale['423'] = "Web Link ID";
+$locale['424'] = "Web Link Adı";
+$locale['425'] = "Web Link Tarihi";
+$locale['426'] = "Artan";
+$locale['427'] = "Azalan";
+$locale['428'] = "Kategori Erişimi:";
+$locale['429'] = "Kategoriyi Kaydet";
 // Current Web Link categories
-$locale['430'] = "Category";
-$locale['431'] = "Access";
+$locale['430'] = "Kategori";
+$locale['431'] = "Erişim";
 // Delete Web Link category
-$locale['440'] = "Delete web link category?";
+$locale['440'] = "Bu Web Link Kategorisi Silinsin Mi?";
 // Error Messages
-$locale['460'] = "Please enter a category name.";
-$locale['461'] = "This category already exists.";
-$locale['462'] = "Please enter a weblink name.";
+$locale['460'] = "Lütfen bir kategori ismi belirtin.";
+$locale['461'] = "Kategori adı zaten mevcut.";
+$locale['462'] = "Lütfen bir Web Linki adı girin.";
 // Web Link titles
-$locale['500'] = "Add Web Link";
-$locale['501'] = "Edit Web Link";
-$locale['502'] = "Current Web Links";
+$locale['500'] = "Web Linki Ekle";
+$locale['501'] = "Web Linki Düzenle";
+$locale['502'] = "Mevcut Web Linkleri";
 // Web Link messages
-$locale['510'] = "Web Link added";
-$locale['511'] = "Web Link updated";
-$locale['512'] = "Web Link deleted";
+$locale['510'] = "Web Linki eklendi";
+$locale['511'] = "Web Linki güncellendi";
+$locale['512'] = "Web Link silindi";
 // Web Link form
-$locale['520'] = "Site Name:";
-$locale['521'] = "Description:";
+$locale['520'] = "Site Adı:";
+$locale['521'] = "Açıklama:";
 $locale['522'] = "Site URL:";
-$locale['523'] = "Category:";
-$locale['524'] = "Update Publication Date";
-$locale['525'] = "Save Web Link";
+$locale['523'] = "Kategori:";
+$locale['524'] = "Yayımlanma Tarihini Güncelle";
+$locale['525'] = "Web Linkini Kaydet";
 // Current Web Links
-$locale['531'] = "Web Link [Click to Test]";
-$locale['532'] = "Options";
-$locale['533'] = "Edit";
-$locale['534'] = "Delete";
-$locale['535'] = "No Web Links have been added to this category";
-$locale['536'] = "No Web Link categories defined";
-$locale['537'] = "There are no Web Link categories defined";
-$locale['538'] = "You must define at least one category before you can add any Web Links";
-$locale['539'] = "Click here";
-$locale['540'] = " to go to Web Link Categories";
+$locale['531'] = "Web Linki [Test Etmek İçin Tıklayın]";
+$locale['532'] = "Seçenekler";
+$locale['533'] = "Düzenle";
+$locale['534'] = "Sil";
+$locale['535'] = "Bu kategoriye henüz web linki eklenmemiş";
+$locale['536'] = "Henüz bir web linki kategorisi oluşturulmamış";
+$locale['537'] = "Web Linki Kategorisi Bulunamadı";
+$locale['538'] = "Web linklerini ekleyebilmeniz için en az bir adet web linki kategorisi oluşturmanız gerekir";
+$locale['539'] = "Buraya Tıklayarak";
+$locale['540'] = " Web Linkleri Kategorisi Oluşturabilirsiniz";
 // Delete Web Link
-$locale['550'] = "Delete this web link?";
+$locale['550'] = "Bu Web Linki Silinsin Mi?";
 ?>

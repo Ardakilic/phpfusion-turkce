@@ -1,43 +1,50 @@
 <?php
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
 // Edit/Save/Delete User Group Messages
-$locale['400'] = "User Group updated";
-$locale['401'] = "User Group added";
-$locale['402'] = "Selected users removed from Group";
-$locale['403'] = "All users removed from Group";
-$locale['404'] = "Selected users added to Group";
-$locale['405'] = "Cannot delete User Group";
-$locale['406'] = "There are users assigned to this group";
-$locale['407'] = "User Group deleted";
+$locale['400'] = "Kullanıcı Grubu Güncellendi";
+$locale['401'] = "Kullanıcı Grubu Eklendi";
+$locale['402'] = "Seçili Üyeler Gruptan Çıkartıldı";
+$locale['403'] = "Tüm Üyeler Gruptan Çıkartıldı";
+$locale['404'] = "Seçili Üyeler Gruba Eklendi";
+$locale['405'] = "Kullanıcı Grubu Silinemiyor";
+$locale['406'] = "Bu Gruba Kayıtlı Üyeler Mevcut";
+$locale['407'] = "Kullanıcı Grubu Silindi";
 // Edit/Delete Options
-$locale['420'] = "User Groups";
-$locale['421'] = "Edit";
-$locale['422'] = "Delete";
-$locale['423'] = "Delete this user group?";
+$locale['420'] = "Kullanıcı Grupları";
+$locale['421'] = "Düzenle";
+$locale['422'] = "Sil";
+$locale['423'] = "Bu Kullanıcı Grubu Silinsin Mi?";
 // Edit/Add User Group
-$locale['430'] = "Edit User Group";
-$locale['431'] = "Add User Group";
-$locale['432'] = "Group Name:";
-$locale['433'] = "Group Description:";
-$locale['434'] = "Save Group";
+$locale['430'] = "Kullanıcı Grubunu Düzenle";
+$locale['431'] = "Kullanıcı Grubu Ekle";
+$locale['432'] = "Grup Adı:";
+$locale['433'] = "Grup Açıklaması:";
+$locale['434'] = "Grubu Kaydet";
 // Search/Add Group Users
-$locale['440'] = "Add users to Group";
-$locale['441'] = "Search for users to add to this group using the form below.";
-$locale['442'] = "You can search for multiple users by separating each entry with a comma.";
-$locale['443'] = "User IDs";
-$locale['444'] = "User Names";
-$locale['445'] = "Search";
-$locale['446'] = "User Name";
-$locale['447'] = "User Type";
-$locale['448'] = "Check All";
-$locale['449'] = "Uncheck All";
-$locale['450'] = "Add selected users";
-$locale['451'] = "No users found.";
-$locale['452'] = "Search Again";
+$locale['440'] = "Gruba kullanıcı ekleme";
+$locale['441'] = "Aşağıdaki formu kullanarak gruba eklenecek üye arayabilirsiniz.";
+$locale['442'] = "Birden fazla üyeyi aralarında boşluk bırakarak arayabilirsiniz.";
+$locale['443'] = "Kullanıcı IDleri";
+$locale['444'] = "Kullanıcı Adları";
+$locale['445'] = "Ara";
+$locale['446'] = "Kullanıcı Adı";
+$locale['447'] = "Kullanıcı Tipi";
+$locale['448'] = "Tümünü Seç";
+$locale['449'] = "Hiç Birini Seçme";
+$locale['450'] = "Seçili üyeleri ekle";
+$locale['451'] = "Kullanıcı bulunamadı.";
+$locale['452'] = "Yeniden Ara";
 // Current Group Users
-$locale['460'] = "Current Group Users";
-$locale['461'] = "Remove selected users";
-$locale['462'] = "Remove all users";
-$locale['463'] = "There are no users in this group.";
+$locale['460'] = "Mevcut Grup Üyeleri";
+$locale['461'] = "Seçili üyeleri gruptan çıkart";
+$locale['462'] = "Tüm üyeleri gruptan çıkart";
+$locale['463'] = "Bu grupta üye bulunamadı.";
 // Error Messages
-$locale['464'] = "Please enter a Group name";
+$locale['464'] = "Lütfen bir grup adı girin";
 ?>
