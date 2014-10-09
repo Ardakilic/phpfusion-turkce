@@ -1,4 +1,11 @@
 <?php
-$locale['pl_pp_title'] = "Photo Gallery Nav";
-$locale['pl_pp_desc'] = "Enable Permalinks for the Photos Gallery Navigation in the site.";
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
+$locale['pl_pp_title'] = "Resim Galerisi Navigasyonu";
+$locale['pl_pp_desc'] = "Resim Galerisi Navigasyonu için sitede kalıcı bağlantıları aktifleştirir.";
 ?>

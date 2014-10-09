@@ -1,4 +1,11 @@
 <?php
-$locale['pl_articles_cat_title'] = "Articles Category";
-$locale['pl_articles_cat_desc'] = "Enable Permalinks for the Articles Category on the site.";
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
+$locale['pl_articles_cat_title'] = "Makale Kategorileri";
+$locale['pl_articles_cat_desc'] = "Makale kategorileri için kalıcı bağlantıları etkinleştirir.";
 ?>

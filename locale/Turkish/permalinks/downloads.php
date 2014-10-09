@@ -1,4 +1,11 @@
 <?php
-$locale['pl_downloads_title'] = "Downloads";
-$locale['pl_downloads_desc'] = "Enable Permalinks for the Downloads on the site.";
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
+$locale['pl_downloads_title'] = "İndirmeler";
+$locale['pl_downloads_desc'] = "İndirmeler için kalıcı bağlantıları aktifleştirir.";
 ?>
