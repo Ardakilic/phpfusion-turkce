@@ -1,4 +1,11 @@
 <?php
-$locale['bb_right_description'] = "Aligns selected text to right";
-$locale['bb_right_usage'] = "Text to align right";
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
+$locale['bb_right_description'] = "Seçili metni sağa hizalar";
+$locale['bb_right_usage'] = "Sağa hizalanacak metin";
 ?>

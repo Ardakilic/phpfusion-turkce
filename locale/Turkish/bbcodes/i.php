@@ -1,4 +1,11 @@
 <?php
-$locale['bb_i_description'] = "Makes selected text italic";
-$locale['bb_i_usage'] = "Text to italic";
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
+$locale['bb_i_description'] = "Seçili metni italik yapar";
+$locale['bb_i_usage'] = "İtalik yapılacak metin";
 ?>

@@ -1,9 +1,16 @@
 <?php
-$locale['bb_geshi_description'] = "GeSHi code highlighter Utiliser";
-$locale['bb_geshi_usage'] = "Text code to highlight via GeSHi Class";
-$locale['bb_geshi_lang'] = "Code language name";
-$locale['bb_geshi_parser1'] = "Parser note";
-$locale['bb_geshi_parser2'] = "Code too big for GeSHi! Using code tag instead";
-$locale['bb_geshi_info'] = "Parsed in <TIME> seconds, using GeSHi <VERSION>";
-$locale['bb_geshi_save'] = "Download source";
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
+$locale['bb_geshi_description'] = "GeSHi kod renklendirmesi";
+$locale['bb_geshi_usage'] = "GeSHi ile renklendirilecek kod";
+$locale['bb_geshi_lang'] = "Kodun Dili (php, mysql vs.)";
+$locale['bb_geshi_parser1'] = "Renklendirici Notu";
+$locale['bb_geshi_parser2'] = "Kod GeSHi İçin Çok Büyük! Geshi Yerine code BB Kodu kullanılacak.";
+$locale['bb_geshi_info'] = "Çözümleme <TIME> saniye sürdü, Kullanılan GeSHi sürümü: <VERSION>";
+$locale['bb_geshi_save'] = "Kaynağı İndir";
 ?>

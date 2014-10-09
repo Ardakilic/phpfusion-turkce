@@ -1,5 +1,12 @@
 <?php
-$locale['bb_mail'] = "Email address";
-$locale['bb_mail_description'] = "Makes email adress clickable";
-$locale['bb_mail_usage'] = "Email address or text to display as";
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
+$locale['bb_mail'] = "Email addresi";
+$locale['bb_mail_description'] = "Tıklanabilir bir email adresi oluşturur";
+$locale['bb_mail_usage'] = "Email adresi veya email olarak görüntülenecek metin";
 ?>

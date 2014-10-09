@@ -1,4 +1,11 @@
 <?php
-$locale['bb_olist_description'] = "Creates ordered list for specified type";
-$locale['bb_olist_usage'] = "Text 1 :enter: Text 2 :enter: etc";
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
+$locale['bb_olist_description'] = "Seçili Türde Sıralı Liste Oluşturur";
+$locale['bb_olist_usage'] = "Metin 1 :enter: Metin 2 :enter: vs.";
 ?>
