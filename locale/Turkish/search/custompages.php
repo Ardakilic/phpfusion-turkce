@@ -1,8 +1,15 @@
 <?php
-$locale['c400'] = "Custom Pages";
-$locale['c401'] = "Custom Page";
-$locale['c402'] = "Custom Pages";
-$locale['c403'] = "found in";
-$locale['c404'] = "page title";
-$locale['c405'] = "page content";
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
+$locale['c400'] = "Özel Sayfalar";
+$locale['c401'] = "Özel Sayfa";
+$locale['c402'] = "Özel Sayfa";
+$locale['c403'] = "";
+$locale['c404'] = "sayfa başlığında bulundu";
+$locale['c405'] = "sayfa içeriğinde bulundu";
 ?>

@@ -18,6 +18,13 @@
 | copyright header is strictly prohibited without
 | written permission from the original author(s).
 +--------------------------------------------------------*/
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
 require_once "../../maincore.php";
 if (!defined("IN_FUSION")) { die("Access Denied"); }
 $q = $_GET['q'];
@@ -36,7 +43,7 @@ if (dbrows($result) > 0) {
 							 "level" => "$user_level");
 	}
 } else {
-	$user_opts[] = array('id' => '', 'text' => "No Results Found..", 'avatar' => '', 'level' => '');
+	$user_opts[] = array('id' => '', 'text' => "Sonuc bulunamadi..", 'avatar' => '', 'level' => '');
 }
 echo json_encode($user_opts);
 

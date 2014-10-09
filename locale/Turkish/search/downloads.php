@@ -1,11 +1,18 @@
 <?php
-$locale['d400'] = "Downloads";
-$locale['d401'] = "Download";
-$locale['d402'] = "Downloads";
-$locale['d403'] = "[NEW]";
-$locale['d404'] = "License:";
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
+$locale['d400'] = "İndirmeler";
+$locale['d401'] = "Dosya";
+$locale['d402'] = "Dosya";
+$locale['d403'] = "[YENİ]";
+$locale['d404'] = "Lisans:";
 $locale['d405'] = "O/S:";
-$locale['d406'] = "Version:";
-$locale['d407'] = "Date Added:";
-$locale['d408'] = "Downloads:";
+$locale['d406'] = "Versiyon:";
+$locale['d407'] = "Eklenme Tarihi:";
+$locale['d408'] = "İndirilme Sayısı:";
 ?>
