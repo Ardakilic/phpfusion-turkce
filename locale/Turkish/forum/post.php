@@ -1,94 +1,101 @@
 <?php
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
 // Post Titles
-$locale['400'] = "Preview Thread";
-$locale['401'] = "Post Thread";
-$locale['402'] = "Preview Reply";
-$locale['403'] = "Reply to Thread";
-$locale['404'] = "Post Reply";
-$locale['405'] = "Preview Changes";
-$locale['407'] = "Delete Post";
-$locale['408'] = "Edit Post";
-$locale['409'] = "Save Changes";
+$locale['400'] = "Mesaj Ön İzleme";
+$locale['401'] = "Mesajı Gönder";
+$locale['402'] = "Cevap Ön İzleme";
+$locale['403'] = "Cevap Yaz";
+$locale['404'] = "Cevabı Gönder";
+$locale['405'] = "Değişiklikleri Ön İzle";
+$locale['407'] = "Mesaj Sil";
+$locale['408'] = "Mesaj Düzenle";
+$locale['409'] = "Değişiklikleri Kaydet";
 // Post Preview
-$locale['420'] = "No Subject";
-$locale['421'] = "No Message, Post will be rejected if you do not include a Message";
-$locale['422'] = "Author:";
-$locale['423'] = "Posts:";
-$locale['424'] = "Location:";
-$locale['425'] = "Joined:";
-$locale['426'] = "Posted on ";
-$locale['427'] = "Edited by ";
-$locale['428'] = " on ";
-$locale['429'] = " wrote:";
-$locale['430'] = "User Avatar";
-$locale['431'] = "Latest post";
-$locale['432'] = "Latest %s posts";
+$locale['420'] = "Konu Yok";
+$locale['421'] = "Mesaj Yok, lütfen mesaj bölümünü doldurunuz.";
+$locale['422'] = "Yazan:";
+$locale['423'] = "Mesaj Sayısı:";
+$locale['424'] = "Konum:";
+$locale['425'] = "Katılım Tarihi:";
+$locale['426'] = "Mesaj Tarihi ";
+$locale['427'] = "Düzenleyen ";
+$locale['428'] = " tarihinde ";
+$locale['429'] = " tarafından yazılan metin:";
+$locale['430'] = "Üye avatarı";
+$locale['431'] = "En son mesaj";
+$locale['432'] = "En son %s mesaj";
 // Post Error/Success
-$locale['440a'] = "Attachment file type not allowed.";
-$locale['440b'] = "Invalid attachment filename or filesize.";
-$locale['441'] = "Error: You did not specify a Subject and/or Message";
-$locale['442'] = "Your Thread has been Posted";
-$locale['443'] = "Your Reply has been Posted";
-$locale['444'] = "The Thread has been deleted";
-$locale['445'] = "The Post has been deleted";
-$locale['446'] = "Your Post has been updated";
-$locale['447'] = "Return to Thread";
-$locale['448'] = "Return to Forum";
-$locale['449'] = "Return to Forum Index";
-$locale['450'] = "Error: Your cookie session has expired, please login and repost";
-$locale['451'] = "Track Thread";
-$locale['452'] = "You are now tracking this thread";
-$locale['453'] = "You are no longer tracking this thread";
-$locale['454'] = "This post is locked. Contact the moderator for further information.";
-$locale['455'] = "You may only edit a post for %d minute(s) after initial submission.";
+$locale['440a'] = "Yüklenilen dosya türüne izin verilmiyor.";
+$locale['440b'] = "Hatalı dosya adı ya da dosya boyutu.";
+$locale['441'] = "Hata: Mesajınjızı ya da Mesaj Konusunu Yazmadınız";
+$locale['442'] = "Mesajınız Gönderildi";
+$locale['443'] = "Cevabınız Gönderildi";
+$locale['444'] = "Bu başlık silindi";
+$locale['445'] = "Bu mesaj silindi";
+$locale['446'] = "Mesajınız güncelleştirildi";
+$locale['447'] = "Başlığa Geri Dön";
+$locale['448'] = "Foruma Geri Dön";
+$locale['449'] = "Forum Ana Sayfasına Geri Dön";
+$locale['450'] = "Hata: Tarayıcı çerezleri zaman aşımına uğradı, lütfen tekrar giriş yapın ve mesajınızı gönderin";
+$locale['451'] = "Başlık Takibi";
+$locale['452'] = "Şu anda başlığı takip etmektesiniz";
+$locale['453'] = "Başlığı artık takip etmiyorsunuz";
+$locale['454'] = "Bu mesaj kilitlenmiş. Detaylı bilgi için lütfen bir moderatöre başvurun.";
+$locale['455'] = "Mesajı gönderdikten sonra %d dakika boyunca mesaj üzerinde düzenleme yapabilirsiniz.";
 // Post Form
-$locale['460'] = "Subject";
-$locale['461'] = "Message";
-$locale['462'] = "Font Color: ";
-$locale['463'] = "Options";
-$locale['464'] = "Attachment";
-$locale['465'] = " (Optional)";
-$locale['466'] = "Max. filesize: %s / Allowed filetypes: %s / Max. number of  attachments: %s";
-$locale['467'] = "Add Poll (Optional)";
-$locale['468'] = "Edit Poll";
-$locale['469'] = "Poll Title";
-$locale['470'] = "Poll Option";
+$locale['460'] = "Konu";
+$locale['461'] = "Mesaj";
+$locale['462'] = "Font Rengi: ";
+$locale['463'] = "Seçenekler";
+$locale['464'] = "Ek Dosya";
+$locale['465'] = " (İsteğe Bağlı)";
+$locale['466'] = "Maks. dosya boyutu: %s / Kabul edilen dosya türü: %s / Maks. eklenebilen dosya adedi: %s";
+$locale['467'] = "Anket Ekle (İsteğe Bağlı)";
+$locale['468'] = "Anketi Düzenle";
+$locale['469'] = "Anket Başlığı";
+$locale['470'] = "Seçenek";
 $locale['470a'] = $locale['470']." 1";
 $locale['470b'] = $locale['470']." 2";
-$locale['471'] = "Add Option";
-$locale['472'] = "Update";
-$locale['473'] = "Delete";
-$locale['474'] = "Edit Reason";
+$locale['471'] = "Seçenek Ekle";
+$locale['472'] = "Güncelle";
+$locale['473'] = "Sil";
+$locale['474'] = "Düzenleme Sebebi";
 // Post Form Options
-$locale['480'] = "Make this Thread Sticky";
-$locale['481'] = "Lock this Thread";
-$locale['482'] = "Disable Smileys in this Post";
-$locale['483'] = "Show My Signature in this Post";
-$locale['484'] = "Delete this Post";
-$locale['485'] = "Delete attachment -";
-$locale['486'] = "Notify me when a reply is posted";
-$locale['487'] = "Hide Edit";
-$locale['488'] = "Lock Post";
+$locale['480'] = "Bu Başlığı Popüler Yap";
+$locale['481'] = "Başlığı Kilitle";
+$locale['482'] = "Bu mesajda yüz ifadelerini (Smiley) kullanma";
+$locale['483'] = "Bu mesajda imzamı göster";
+$locale['484'] = "Bu mesajı sil";
+$locale['485'] = "Ekteki dosyayı Sil -";
+$locale['486'] = "Cevap geldiğinde bana haber ver";
+$locale['487'] = "Düzenlemeyi gizle";
+$locale['488'] = "Mesajı Kilitle";
 // Post Access Violation
-$locale['500'] = "You cannot edit this post.";
+$locale['500'] = "Bu mesajı düzenleyemezsiniz.";
 
 // Forum Post Merger
-$locale['520'] = "Merged on";
+$locale['520'] = "Birleştirilme";
 
 // Search Forum Form
-$locale['530'] = "Search Forum";
-$locale['531'] = "Search Keyword(s)";
-$locale['532'] = "Search";
+$locale['530'] = "Forumlarda Ara";
+$locale['531'] = "Anahtar Kelimeleri Ara";
+$locale['532'] = "Ara";
 // Forum Notification Email
-$locale['550'] = "Thread Reply Notification - {THREAD_SUBJECT}";
-$locale['551'] = "Hello {USERNAME},
+$locale['550'] = "Forum Başlığı Cevap Bildirisi - {THREAD_SUBJECT}";
+$locale['551'] = "Merhaba {USERNAME},
 
-A reply has been posted in the forum thread '{THREAD_SUBJECT}' which you are tracking at ".$settings['sitename'].". You can use the following link to view the reply:
+".$settings['sitename']." Sitesinden takip etmekte olduğunuz '{THREAD_SUBJECT}' isimli forum başlığına  bir cevap gelmiştir . Okuyabilmek ya da Cevaplayabilmek için aşağıdaki linki takip edebilirsiniz:
 
 {THREAD_URL}
 
-If you no longer wish to watch this thread you can click the 'Stop tracking this thread' link located at the top of the thread.
+Eğer başlığı takip etmekten vazgeçtiyseniz lütfen başlık üzerindeki 'Bu başlığı takip etmeyi durdur' butonuna tıklayarak takip işlemini sonlandırınız.
 
-Regards,
+Saygılarımızla,
 ".$settings['siteusername'].".";
 ?>
