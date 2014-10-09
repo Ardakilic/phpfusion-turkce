@@ -1,150 +1,157 @@
 <?php
+
+/**
+ * PHP-Fusion v9 Türkçe Dil Dosyası
+ * @author Arda Kılıçdağı
+ * @link http://arda.pw , http://www.phpfusionturkiye.com
+*/
+
 // Member Management Options
-$locale['400'] = "User Management";
-$locale['401'] = "User";
-$locale['402'] = "Add New Member";
-$locale['403'] = "User Type";
-$locale['404'] = "Options";
-$locale['405'] = "View";
-$locale['406'] = "Edit";
-$locale['407'] = "Activate";
-$locale['408'] = "Unban";
-$locale['409'] = "Ban";
-$locale['410'] = "Delete";
-$locale['411'] = "There are no %s members";
-$locale['412'] = " beginning with ";
-$locale['413'] = " matching ";
-$locale['414'] = "Show All";
-$locale['415'] = "Search for member:";
-$locale['416'] = "Search";
-$locale['417'] = "Select Action";
-$locale['418'] = "Cancel";
-$locale['419'] = "Reinstate";
+$locale['400'] = "Üye Yönetimi";
+$locale['401'] = "Üye";
+$locale['402'] = "Ekle";
+$locale['403'] = "Üye Tipi";
+$locale['404'] = "Seçenekler";
+$locale['405'] = "Görüntüle";
+$locale['406'] = "Düzenle";
+$locale['407'] = "Aktif Et";
+$locale['408'] = "Banı Kaldır";
+$locale['409'] = "Banla";
+$locale['410'] = "Sil";
+$locale['411'] = "%s Bulunamadı";
+$locale['412'] = ". Aranan İlk Harf: ";
+$locale['413'] = ". Aranan Kullanıcı Adı: ";
+$locale['414'] = "Hepsini Göster";
+$locale['415'] = "Üye Ara:";
+$locale['416'] = "Ara";
+$locale['417'] = "İşlem Seçin";
+$locale['418'] = "İptal Et";
+$locale['419'] = "Eski durumuna getir";
 // Ban/Unban/Delete Member
-$locale['420'] = "Ban Imposed";
-$locale['421'] = "Ban Removed";
-$locale['422'] = "Member Deleted";
-$locale['423'] = "Are you sure you wish to delete this member?";
-$locale['424'] = "Member Activated";
-$locale['425'] = "<h2>Warning!</h2><br />
-You are about to delete user <strong>%s</strong> !<br />
-The following content <u>posted by this user</u> on this site will be deleted if you proceed:<br />
-- Articles<br />
-- News<br />
-- Forum threads. Note that posts made by other users in these threads will also be deleted, along with the poll votes and attachemets existent in this threads.<br />
-- Forum posts<br />
-- Forum attachements<br />
-- Comments<br />
-- Private messages sent or received by this user<br />
-- Poll votes<br />
-- Ratings given<br />
-Unless this is a spammer for eg. we recommend you to Ban, Suspend, Cancel or Anomymize this user.<br />
+$locale['420'] = "Siteden Banlandı";
+$locale['421'] = "Banı Kaldırıldı";
+$locale['422'] = "Üye Silindi";
+$locale['423'] = "Bu üyeyi silmek istediğinizden emin misiniz?";
+$locale['424'] = "Üye Aktif Edildi";
+$locale['425'] = "<h2>Uyarı!</h2><br />
+Şu üyeyi silmek üzeresiniz: <strong>%s</strong> !<br />
+<u>Bu kullanıcı tarafından</u> siteye eklenmiş aşağıdaki içerikler de kalıcı olarak silinecek:<br />
+- Makaleler<br />
+- Haberler<br />
+- Forum başlıkları. Ayrıca bu başlıklar altına başka kullanıcılar tarafından yazılmış diğer tüm forum mesakları, oylamalar ve ek dosyalar da silinecek.<br />
+- Forum mesajlar<br />
+- Forum ek dosyaları<br />
+- Yorumlar<br />
+- Bu kullanıcı tarafından gönderilmiş veya bu kullanıcıya gönderilmiş özel mesajlar<br />
+- Anket oylamaları<br />
+- Verilen oylamalar<br />
+Eğer bu kullanıcı bir spammer değilse bu üyeyi engellemeniz, iptal etmeniz veya anonim hale dönüştürmeniz sitedeki içerikler için daha yararlı olacaktır.<br />
 <br />
-Are you sure you want to delete this user?<br />";
-$locale['426'] = "Yes";
-$locale['427'] = "No";
+Bu üyeyi silmek istiyor musunuz?<br />";
+$locale['426'] = "Evet";
+$locale['427'] = "Hayır";
 // Edit Member Details
-$locale['430'] = "Edit Member";
-$locale['431'] = "Member details updated";
-$locale['432'] = "Return to Members Admin";
-$locale['433'] = "Return to Admin Index";
-$locale['434'] = "Unable to Update Member details:";
+$locale['430'] = "Kullanıcıyı Düzenle";
+$locale['431'] = "Kullanıcı Bilgileri Güncellendi";
+$locale['432'] = "Üye Yönetimine Geri Dön";
+$locale['433'] = "Site Yönetimine Geri Dön";
+$locale['434'] = "Kullanıcı Bilgileri Güncellenemedi:";
 // Extra Edit Member Details form options
-$locale['440'] = "Save Changes";
+$locale['440'] = "Değişiklikleri Kaydet";
 // Update Profile Errors
-$locale['450'] = "Cannot edit primary administrator.";
-$locale['451'] = "You must specify a user name and email address.";
-$locale['452'] = "User name contains invalid characters.";
-$locale['453'] = "The user name ".(isset($_POST['user_name']) ? $_POST['user_name'] : "")." is in use.";
-$locale['454'] = "Invalid email address.";
-$locale['455'] = "The email address ".(isset($_POST['user_email']) ? $_POST['user_email'] : "")." is in use.";
-$locale['456'] = "New Passwords do not match.";
-$locale['457'] = "Invalid password, use alpha numeric characters only.<br />
-Password must be a minimum of 6 characters long.";
-$locale['458'] = "<strong>Warning:</strong> unexpected script execution.";
+$locale['450'] = "Site Sahibi olan ve İlk Admin Olarak tanımlanan yönetici düzenlenemez.";
+$locale['451'] = "Bir Üye ismi ve e-mail adresi belirtmelisiniz..";
+$locale['452'] = "Üye isminde geçersiz karakter var.";
+$locale['453'] = "Bu kullanıcı adı ".(isset($_POST['user_name']) ? $_POST['user_name'] : "")." daha önce alınmış.";
+$locale['454'] = "Geçersiz email adresi.";
+$locale['455'] = "Bu e-mail adresi ".(isset($_POST['user_email']) ? $_POST['user_email'] : "")." daha önce alınmış.";
+$locale['456'] = "Şifreler birbirini tutmuyor.";
+$locale['457'] = "Geçersiz şifre, Türkçe Karakter Kullanmayınız.<br>
+Şifreniz minimum 6 karakter uzunluğunda olmalıdır.";
+$locale['458'] = "<strong>Dikkat:</strong> beklenmeyen bir script hatası oluştu.";
 // View Member Profile
-$locale['470'] = "Member Profile";
-$locale['472'] = "Statistics";
-$locale['473'] = "User Groups";
+$locale['470'] = "Üye Profili: ";
+$locale['472'] = "İstatistikler";
+$locale['473'] = "Kullanıcı Grupları";
 // Add Member Errors
-$locale['480'] = "Add Member";
-$locale['481'] = "The member account has been created.";
-$locale['482'] = "The member account could not be created.";
+$locale['480'] = "Üye Ekle";
+$locale['481'] = "Üye hesabı oluşturuldu.";
+$locale['482'] = "Üye hesabı oluşturulamıyor.";
 // Suspension Log 
-$locale['510s'] = "Suspension Log for ";
-$locale['511s'] = "There are no recorded suspensions for this member in the suspension log.";
-$locale['512s'] = "Previous suspensions of ";
+$locale['510s'] = "Şu üyenin geçici banlanma geçmişi: ";
+$locale['511s'] = "Geçici banlanma geçmişinde bu üye için bir geçmiş bulunamadı.";
+$locale['512s'] = "Şu üyenin önceki geçici banlanmaları: ";
 $locale['513'] = "No."; // as in number
-$locale['514'] = "Date";
-$locale['515'] = "Reason";
-$locale['516'] = "Suspending Administrator";
-$locale['517'] = "System Action";
-$locale['518'] = "Back to User Profile";
-$locale['519'] = "Suspension Log for this User ";
-$locale['520'] = "Lifted: ";
+$locale['514'] = "Tarih";
+$locale['515'] = "Sebep";
+$locale['516'] = "Geçici banlanma yönetimi";
+$locale['517'] = "Sistem Etkisi"; //system action
+$locale['518'] = "Üye Profiline Geri Dön";
+$locale['519'] = "Bu üyenin geçici banlanma durumu ";
+$locale['520'] = "Ban Kalkma: ";
 $locale['521'] = "IP: ";
-$locale['522'] = "Not yet reinstated";
-$locale['540'] = "Error";
-$locale['541'] = "Error: You must state a reason for the Suspension!";
-$locale['542'] = "Error: You must state a reason for the Security Ban!";
+$locale['522'] = "Henüz eski haline dönüştürülmemiş";
+$locale['540'] = "Hata";
+$locale['541'] = "Hata: Geçici banlama için bir sebep belirtmelisiniz!";
+$locale['542'] = "Hata: Güvenlik banlaması için bir sebep belirtmelisiniz!";
 // User Management Admin
-$locale['550'] = "Suspend User: ";
-$locale['551'] = "Duration in days:";
-$locale['552'] = "Reason:";
-$locale['553'] = "Suspend";
-$locale['554'] = "There are no recorded suspensions for this member in the suspension log.";
-$locale['555'] = "If you decide that this user should be banned click on 'Ban'";
-$locale['556'] = "Lift Suspension of User: ";
-$locale['557'] = "Lift Suspension";
-$locale['558'] = "Lift Ban of User: ";
-$locale['559'] = "Lift Ban ";
-$locale['560'] = "Lift Security Ban of User: ";
-$locale['561'] = "Lift Security Ban";
-$locale['562'] = "Ban User: ";
-$locale['563'] = "Security Ban User: ";
-$locale['585a'] = "Please specify a reason for why you are banning or unbanning ";
-$locale['566'] = "Ban lifted";
-$locale['568'] = "Security Ban imposed";
-$locale['569'] = "Security Ban lifted";
-$locale['572'] = "Member suspended";
-$locale['573'] = "Suspension lifted";
-$locale['574'] = "Member deactivated";
-$locale['575'] = "Member reactivated";
-$locale['576'] = "Account cancelled";
-$locale['577'] = "Account cancellation undone";
-$locale['578'] = "Account cancelled and anonymized";
-$locale['579'] = "Account anonymization undone";
-$locale['580'] = "Deactivate Inactive Members";
-$locale['581'] = "You have more then 50 inactive users and will have to run the deactivation process <strong>%d times</strong>.";
-$locale['582'] = "Reactivate";
-$locale['583'] = "Re-instate";
-$locale['584'] = "Select new status";
-$locale['585'] = "This Member was originally banned for security reasons! Are you certain you want to unban this member now?";
-$locale['590'] = "Suspend";
-$locale['591'] = "Unsuspend";
-$locale['592'] = "suspending";
-$locale['593'] = "unsuspending";
-$locale['594'] = "Please specify a reason for why you are ";
-$locale['595'] = " the user ";
-$locale['596'] = "Duration:";
-$locale['600'] = "Security ban";
-$locale['601'] = "security banning";
-$locale['602'] = "Unban";
-$locale['603'] = "unbanning";
-$locale['604'] = "Reason:";
+$locale['550'] = "Geçici banlanan üye: ";
+$locale['551'] = "Müddet (gün):";
+$locale['552'] = "Sebep:";
+$locale['553'] = "Geçici banlanma";
+$locale['554'] = "Geçici banlanma geçmişinde bu üye için bir geçmiş bulunamadı.";
+$locale['555'] = "Eğer bu üyenin banlanmasına karar verdiyseniz 'Banla' tuşuna basın";
+$locale['556'] = "Şu üyenin geçici banını kaldırın: ";
+$locale['557'] = "Geçici banı kaldır";
+$locale['558'] = "Şu üyenin banını kaldırın: ";
+$locale['559'] = "Banı kaldır ";
+$locale['560'] = "Şu üyenin güvenlik banını kaldırın: ";
+$locale['561'] = "Güvenlik banını kaldır";
+$locale['562'] = "Üyeyi Banla: ";
+$locale['563'] = "Güvenlik Banı uygula: ";
+$locale['585a'] = "Lütfen banladığınızın ya da banı kaldırmanızın sebebini girin ";
+$locale['566'] = "Ban kaldırıldı";
+$locale['568'] = "Güvenlik Banı uygulandı";
+$locale['569'] = "Güvenlik Banı kaldırıldı";
+$locale['572'] = "Üye geçici banlandı";
+$locale['573'] = "Geçici Ban kaldırıldı";
+$locale['574'] = "Üye inaktif edildi";
+$locale['575'] = "Üye yeniden aktif edildi";
+$locale['576'] = "Hesap iptal edildi";
+$locale['577'] = "Hesap iptali kaldırıldı";
+$locale['578'] = "Hesap iptal edildi ve anonim hale dönüştürüldü";
+$locale['579'] = "Hesap anonim halden başarı ile kaldırıldı";
+$locale['580'] = "Aktif olmayan üyeleri inaktif hale dönüştür";
+$locale['581'] = "50 den fazla inaktif üyeniz var ve de deaktifleştirme prosesini <strong>%d sefer</strong> çalıştırmanız gerekmekte.";
+$locale['582'] = "Yeniden aktifleştir";
+$locale['583'] = "Eski haline dönüştür";
+$locale['584'] = "Yeni durumu seçin";
+$locale['585'] = "Bu üye ilk olarak güvenlik sebepleri nedeniyle banlanmıştı! Bu üyenin banını kaldırmak istediğinizden emin misiniz?";
+$locale['590'] = "Geçici Banla";
+$locale['591'] = "Geçici Banı Kaldır";
+$locale['592'] = "geçici banladığınız";
+$locale['593'] = "geçici banını kaldırdığınız";
+$locale['594'] = "Lütfen bu üyeyi neden ";
+$locale['595'] = " için bir sebep belirtin: ";
+$locale['596'] = "Süre:";
+$locale['600'] = "Güvenlik banlaması";
+$locale['601'] = "güvenlik banlaması";
+$locale['602'] = "Banı kaldır";
+$locale['603'] = "banı kaldırılıyor";
+$locale['604'] = "Sebep:";
 // Deactivation System
-$locale['610'] = "<strong>%d user(s)</strong> have not logged in for <strong>%d day(s)</strong> and have been marked as inactive. 
-By deactivating these users they will have <strong>%d day(s)</strong> before they are %s.";
-$locale['611'] = "Please note that some users may have submitted content to your site such as forum posts, comments, photos etc.
-these will be deleted when deactivated users are beeing deleted.";
-$locale['612'] = "user";
-$locale['613'] = "users";
-$locale['614'] = "Deactivate";
-$locale['615'] = "permanently deleted";
-$locale['616'] = "anonymize";
-$locale['617'] = "Warning:";
-$locale['618'] = "It is strongly recommended to change deactivation action to anonymize instead of delete to prevent data loss!";
-$locale['619'] = "You can do so here.";
-$locale['620'] = "anonymize";
-$locale['621'] = "Automatic deactivation of inactive users.";
+$locale['610'] = "<strong>%d üye</strong> <strong>%d gündür</strong> siteye girmedi, ve de bu yüzden inaktif olarak işaretlenmiştir. 
+Bunu gerçekleştirerek bu üyelere son olarak <strong>%d gün</strong> tanımış olacaksınız. Yoksa bu üyeler %s<br />
+Bu üyeler forum mesajı, yorum, resim gibi içerikler eklemiş olabilirler,
+ve de eğer bu üyeler kendilerine verilen süre içerisinde giriş yapmayıp otomatik olarak silinirse girdikleri içerikler de silinecektir.";
+$locale['612'] = "üye";
+$locale['613'] = "üyeler";
+$locale['614'] = "Deaktif Et";
+$locale['615'] = "kalıcı olarak silinecek";
+$locale['616'] = "Anonim hale dönüştür";
+$locale['617'] = "Uyarı:";
+$locale['618'] = "Veri kaybını önmelek için dealtivasyon seçeneğini anonim hale dönüştürmeye ayarlamanızı şiddetle tavsiye ediyoruz!";
+$locale['619'] = "Bunu buradan gerçekleştirebilirsiniz.";
+$locale['620'] = "anonim hale dönüştür";
+$locale['621'] = "İnaktif üyelerin otomatik deaktivasyonu.";
 ?>
