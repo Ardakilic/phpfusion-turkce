@@ -15,6 +15,21 @@ $locale['phpmailer'] = "tr";
 // Full & Short Months
 $locale['months'] = "&nbsp|Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık";
 $locale['shortmonths'] = "&nbsp|Ock|Şbt|Mar|Nis|May|Haz|Tem|Ağus|Eyl|Eki|Kas|Arlk";
+// Timers
+$locale['year'] = "yıl";
+$locale['year_a'] = "yıl";
+$locale['month'] = "ay";
+$locale['month_a'] = "ay";
+$locale['day'] = "gün";
+$locale['day_a'] = "gün";
+$locale['hour'] = "saat";
+$locale['hour_a'] = "saat";
+$locale['minute'] = "dakika";
+$locale['minute_a'] = "dakika";
+$locale['second'] = "saniye";
+$locale['second_a'] = "saniye";
+$locale['just_now'] = "şimdi";
+$locale['ago'] = "önce";
 // Standard User Levels
 $locale['user0'] = "Genel";
 $locale['user1'] = "Üye";
