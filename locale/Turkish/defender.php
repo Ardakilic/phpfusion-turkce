@@ -10,6 +10,7 @@ $locale['validate'] = "Lütfen alanı kontrol edip yeniden doğrulayın.";
 $locale['cookie_expired'] = "Yönetici çerezinin süresi doldu. Lütfen yeniden giriş yapın.";
 $locale['cookie_title'] = "Oturum zaman aşımına uğradı";
 $locale['cookie_description'] = "Bu alana geçerli bir erişiminiz yok veya sessionunuz zaman aşımına uğradı. Devam etmek için lütfen giriş yapın.";
+$locale['validate_title'] = "Lütfen aşağıdakileri kontrol edin!";
 
 // Tokens
 $locale['token_error_title'] = "Erişim Jetonu Hatası";
