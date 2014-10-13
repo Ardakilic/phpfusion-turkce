@@ -30,6 +30,13 @@ $locale['second'] = "saniye";
 $locale['second_a'] = "saniye";
 $locale['just_now'] = "şimdi";
 $locale['ago'] = "önce";
+// Geo
+$locale['street1'] = "Adres 1";
+$locale['street2'] = "Addres 2";
+$locale['city'] = "Şehir";
+$locale['postcode'] = "Posta Kodu";
+$locale['sel_country'] = "Ülke seçin";
+$locale['sel_state'] = "İlçe / Belde seçin";
 // Standard User Levels
 $locale['user0'] = "Genel";
 $locale['user1'] = "Üye";
