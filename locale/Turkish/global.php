@@ -8,7 +8,7 @@
 
 // Locale Settings
 setlocale(LC_TIME, "tr_TR.UTF8"); // Linux Server (Windows may differ)
-$locale['charset'] = "UTF-8";
+$locale['charset'] = "utf-8";
 $locale['xml_lang'] = "tr";
 $locale['tinymce'] = "tr";
 $locale['phpmailer'] = "tr";
