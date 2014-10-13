@@ -12,6 +12,13 @@ $locale['cookie_title'] = "Oturum zaman aşımına uğradı";
 $locale['cookie_description'] = "Bu alana geçerli bir erişiminiz yok veya sessionunuz zaman aşımına uğradı. Devam etmek için lütfen giriş yapın.";
 $locale['validate_title'] = "Lütfen aşağıdakileri kontrol edin!";
 
+// Address errors
+$locale['street_error'] = "Adres alanına dikkat edin.";
+$locale['country_error'] = "Ülke alanına dikkat edin.";
+$locale['state_error'] = "İlçe / Belde alanına dikkat edin.";
+$locale['city_error'] = "Şehir alanına dikkat edin.";
+$locale['postcode_error'] = "Posta kodu alanına dikkat edin.";
+
 // Tokens
 $locale['token_error_title'] = "Erişim Jetonu Hatası";
 $locale['token_error'] = "Üzgünüz, bir sorun meydana geldi. Lütfen geri dönüp sayfayı yenileyin ve yeniden deneyin.";
